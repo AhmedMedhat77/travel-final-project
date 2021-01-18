@@ -1,0 +1,37 @@
+.btn.btn-primary {
+  color: #fff;
+  background: var(--main-color);
+  border: 1px solid var(--main-color) !important;
+}
+.btn.btn-secondary {
+  color: var(--main-color);
+  background: transparent;
+  border: 1px solid var(--main-color);
+}
+/* avitve  page text */
+.active-text {
+  color: var(--main-color) !important;
+}
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+.btn.btn-main {
+  color: #fff;
+  background: var(--about-content);
+  border: 1px solid var(--links-color-hover) !important;
+  outline: none;
+}

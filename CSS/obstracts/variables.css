@@ -1,0 +1,13 @@
+:root {
+  --main-color: #95272F;
+  --secodry-color: #5b92e5;
+  --main-white-color: #fff;
+  --main-black-color: #000;
+  --links-color: var(--main-color);
+  --links-color-hover: #c0a8a4;
+  --footer-color:#000;
+  --footer-titels:#eee;
+  --nav-links:rgb(46, 46, 46);
+  --about-content:#c0a8a4;
+  
+}

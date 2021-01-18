@@ -1,0 +1,28 @@
+.services {
+    margin-top: 40px;
+    display: flex;
+  }
+  .main__title {
+    text-align: center;
+    letter-spacing: 0.8rem;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--main-black-color);
+    margin-top: 1rem;
+  }
+  .main__title p {
+    letter-spacing: normal;
+    color: gray;
+    font-size: small;
+  }
+  .services .imgcont img {
+    width: 40%;
+    margin-top: 2rem;
+  }
+  .services .title {
+    margin-top: 2rem;
+  }
+  .services .title p{
+  color: rgb(102, 99, 99);
+  }
+  

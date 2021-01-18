@@ -1,0 +1,39 @@
+
+/* to import css file write @import then url() never forget the  ';' */
+
+
+
+
+
+
+/* obstracts */
+@import url(../obstracts/variables.css);
+
+/*   vendors */
+@import url(../vendors/bootstrap.min.css);
+@import url(../vendors/hover-min.css);
+@import url(../vendors/animate.css);
+@import url(../vendors/owl.theme.default.min.css);
+@import url(../vendors/owl.carousel.min.css);
+
+/*        base               */
+@import url(../base/reset.css);
+
+/*          lay out         */
+@import url(../layout/navbar.css);
+@import url(../layout/footer.css);
+
+/*          components       */
+@import url(../components/buttons.css);
+@import url(../components/header.css);
+@import url(../components/slider.css);
+@import url(../components/about.css);
+@import url(../components/blogs.css);
+/* about section number 2  optional */
+@import url(../components/about2andservices.css);
+/* services optional  */
+@import url(../components/services.css);
+
+/*         pages                  */
+@import url(../pages/signup.css);
+@import url(../pages/blog.css);

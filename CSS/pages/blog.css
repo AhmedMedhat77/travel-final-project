@@ -1,0 +1,49 @@
+/* background section */
+.head-section {
+  background-image: url(../../IMGS/joshua-earle--87JyMb9ZfU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/* / background  */
+
+/* head content  */
+.blogs-header {
+  height: 38.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.164);
+}
+
+.blogs-header h1,
+p {
+  font-weight: 700;
+  color: #fff;
+}
+/* / head content  */
+.blog-cards {
+  margin-top: 6rem;
+}
+.blog-card-img img {
+  max-height: 20rem;
+  transition: all 0.3s ease-in;
+}
+.blog-card-img img:hover {
+  transform: scale(1.2);
+}
+
+/* blog cards */
+.card-text {
+  color: #000;
+}
+.card-text a {
+  color: rgb(102, 99, 99);
+}

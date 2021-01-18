@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sign-in & sign-up</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="sign.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/main/main.css" />
+  </head>
+  <body class="form-body">
+
+
+    <div class="container p-0">
+      <div class="row">
+        <div>
+          <div class="cont">
+            <div class="form sign-in">
+              <h2>Sign In</h2>
+              <label class=" sign-form-label">
+                <span>Email Address</span>
+                <input type="email" name="email" class="sign-input-form" />
+              </label>
+              <label class="sign-form-label">
+                <span>Password</span>
+                <input type="password" name="password" class="sign-input-form" />
+              </label>
+              <button class="submit sign-in-form-btn" type="button" >Sign In</button>
+              <p class="forgot-pass">Forgot Password ?</p>
+
+              <div class="social-media">
+                <ul>
+                  <li>
+                    <img class=""
+                      src="../IMGS/signup/WhatsApp Image 2021-01-17 at 4.09.25 PM.jpeg"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="../IMGS/signup/WhatsApp Image 2021-01-17 at 4.09.22 PM.jpeg"
+                    />
+                  </li>
+                  <li>
+                    <img
+                    src="../IMGS/signup/WhatsApp Image 2021-01-17 at 4.09.24 PM.jpeg"
+                    />
+                </li>
+                <li>
+                    <img
+                    src="../IMGS/signup/WhatsApp Image 2021-01-17 at 4.09.24 PM (1).jpeg"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-cont">
+              <div class="signup-img-slider">
+                <div class="img-text m-up">
+                  <h2>travel with us</h2>
+                  <p>Sign up and Live the adventure !</p>
+                </div>
+                <div class="img-text m-in">
+                  <h2>One of us?</h2>
+                  <p>If you already has an account, we are waiting for you</p>
+                </div>
+                <div class="img-btn">
+                  <span class="m-up">Sign Up</span>
+                  <span class="m-in">Sign In</span>
+                </div>
+              </div>
+              <div class="form sign-up">
+                <h2>Sign Up</h2>
+                <label class="sign-form-label">
+                  <span>Name</span>
+                  <input type="text"  class="sign-input-form" />
+                </label>
+                <label class="sign-form-label">
+                  <span>Email</span>
+                  <input type="email"  class="sign-input-form" />
+                </label>
+                <label class="sign-form-label">
+                  <span>Password</span>
+                  <input type="password"  class="sign-input-form" />
+                </label>
+                <label class="sign-form-label">
+                  <span>Confirm Password</span>
+                  <input type="password"   class="sign-input-form"/>
+                </label>
+                <button type="button" class="submit sign-up-form-btn">Sign Up Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.querySelector(".img-btn").addEventListener("click", function () {
+        document.querySelector(".cont").classList.toggle("s-signup");
+      });
+    </script>
+  </body>
+</html>

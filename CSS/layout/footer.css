@@ -1,0 +1,37 @@
+/* footer */
+
+.footer ul li i {
+  border: solid 0.5px rgba(128, 128, 128, 0.363);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.footer .fa-facebook:hover,
+.fa-twitter:hover {
+  background: #175d97;
+  color: white;
+}
+.footer .fa-youtube:hover {
+  background: red;
+  color: white;
+}
+.footer .fa-tumblr-square:hover {
+  background: #001835;
+  color: #eee;
+}
+.footer .fa-spotify:hover {
+  background: rgba(7, 207, 7, 0.808);
+  color: white;
+}
+.footer .fa-instagram:hover {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  color: white;
+}
