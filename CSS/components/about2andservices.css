@@ -1,19 +1,17 @@
 .about {
   width: 100%;
   margin-top: 50px;
-  
 }
 .about__img {
-    width: 100%;
-  background: url(../../IMGS/pexels-michael-block-3225528.jpg);
-  background-position: center ;
+  width: 100%;
+  background: url(../../IMGS/greek.jpg);
+  background-position: center;
   background-size: cover;
   position: relative;
 }
 
 .about .about__content {
-  background-color: #232931;
-  color: var(--main-color);
+  background-color: #71777e;
   padding: 50px;
 }
 .about .about__content h2 {
@@ -23,4 +21,3 @@
 .buttons {
   padding: 20px;
 }
-
