@@ -29,21 +29,42 @@ p {
   color: #fff;
 }
 /* / head content  */
-.blog-cards {
-  margin-top: 6rem;
-}
-.blog-card-img img {
-  max-height: 20rem;
-  transition: all 0.3s ease-in;
-}
-.blog-card-img img:hover {
-  transform: scale(1.2);
+
+/* blog content */
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
 }
 
-/* blog cards */
-.card-text {
-  color: #000;
+.blog-container:hover {
+  box-shadow: 1px 1px 2px gray;
 }
-.card-text a {
-  color: rgb(102, 99, 99);
+
+.blog-content h4 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+.blog-content p {
+  color: var(--paragraph-color);
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+.blog-img img {
+  width: 100%;
+  transition: all 1s;
+}
+.blog-img img:hover {
+  transform: scale(1.2);
+  box-shadow: 1px 1px 7px gray;
+  border: 0.3px solid #eee;
+  border-radius: 25px;
+}
+/* page navigation buttons */
+.nav-buttons {
+  padding: 20px;
+  margin: auto;
 }
