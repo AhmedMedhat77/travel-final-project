@@ -42,7 +42,7 @@ nav.sticky {
     #c4e0e5,
     #4ca1af
   );
-  box-shadow: gray 4px 0px 5px;
+  box-shadow: gray 4px 0px 15px;
 }
 nav.sticky ul li a {
   color: var(--main-white-color);
@@ -59,7 +59,7 @@ nav.sticky .hvr-underline-from-center:before {
   .nav-item {
     border-bottom: 1px solid gray;
   }
-  .navbar-collaose {
+  .navbar-collapse {
     border: 1px solid lightgray;
     background-color: lightgray;
     color: black;
