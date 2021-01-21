@@ -149,7 +149,7 @@ header:hover .owl-next {
  /*search box css start here*/
  .search-sec{
   padding: 2rem;
-  z-index: 1123;
+  z-index: 10;
 }
 .search-slt{
   display: block;

@@ -33,16 +33,8 @@
 }
 nav.sticky {
   padding: 1px 10px;
-<<<<<<< HEAD
-  background-color: #EAEBED;
-  /* background: #4ca1af;
-  background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
-  background: linear-gradient(to right, #c4e0e5, #4ca1af);
-  box-shadow: gray 4px 0px 15px; */
-=======
   background-color: #fff;
   box-shadow: gray 4px 0px 15px;
->>>>>>> origin/main
 }
 nav.sticky ul li a {
   color: var(--main-black-color);
@@ -53,67 +45,6 @@ nav.sticky .hvr-underline-from-center:before {
   height: 3px;
 }
 
-/*-------------------------------------------------------------------8. Navigations-------------------------------------------------------------------*/
-/*-------------------- Navigation classic ---------------------*/
-.dropdown-menu {
-	position: absolute;
-	top: 100%;
-  left: 0;
-  right: 0;
-	z-index: 1000;
-	display: none;
-	float: left;
-	min-width: 16rem;
-	padding: 12px;
-	margin: 18px 0px;
-	font-size: 1rem;
-	color: #d0d1da;
-	text-align: left;
-	list-style: none;
-	background-color: gray;
-	background-clip: padding-box;
-	border: none;
-	border-radius: none;
-	-webkit-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.09);
-	-moz-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.09);
-	box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.09);
-}
-.dropdown-item {
-	display: block;
-	width: 100%;
-	padding: 15px 15px;
-	clear: both;
-	font-weight: 400;
-	color: #181825;
-	text-align: inherit;
-	white-space: nowrap;
-	background-color: transparent;
-	border: 0;
-	font-size: 15px;
-	line-height: 15px;
-}
-@media(min-width:992px) {
-	.dropdown .dropdown-menu {
-		display: block;
-		visibility: hidden;
-		opacity: 0;
-		-webkit-transform: translateY(20px);
-		-ms-transform: translateY(20px);
-		transform: translateY(20px);
-		-webkit-transition: all .3s ease-in;
-		-o-transition: all .3s ease-in;
-		transition: all .3s ease-in 
-}}
-	.dropdown:hover>.dropdown-menu {
-		visibility: visible;
-		opacity: 1;
-		-webkit-transform: scaleY(1);
-		-ms-transform: scaleY(1);
-		transform: scaleY(1);
-		opacity: 1;
-		visibility: visible;
-	}
-	
 @media screen and (max-width: 770px) {
   .nav-item {
     border-bottom: 1px solid gray;
