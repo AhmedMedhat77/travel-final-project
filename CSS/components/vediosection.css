@@ -1,0 +1,45 @@
+.vedio-img {
+  background-image: url(../../IMGS/h1-img-1.jpg);
+  border: solid 1px black;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  width: 100%;
+}
+.vedio-img-content {
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  max-width: 200px;
+  color: #eee;
+}
+.subtitle p {
+  color: gold;
+  font-size: small;
+}
+.fa-play-circle {
+  font-size: 4rem;
+  color: var(--main-color);
+  transition: all 1s;
+}
+.fa-play-circle:hover {
+  transform: scale(1.2);
+}
+.sub-vedio-content {
+  color: white;
+  margin-top: 5rem;
+  margin-left: 2rem;
+
+  border: solid 1px white;
+}
+
+.sub-vedio-content h2 {
+  color: var(--main-black-color);
+  font-weight: bold;
+}
+.sub-vedio-content p {
+  color: gray;
+  font-weight: 600;
+}

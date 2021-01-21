@@ -4,8 +4,6 @@
 @import url(../obstracts/variables.css);
 
 /*   vendors */
-/* fontawsome CDN */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 @import url(../vendors/bootstrap.min.css);
 @import url(../vendors/hover-min.css);
 @import url(../vendors/animate.css);
@@ -23,7 +21,7 @@
 @import url(../components/buttons.css);
 @import url(../components/header.css);
 @import url(../components/slider.css);
-@import url(../components/about.css);
+@import url(../components/vediosection.css);
 @import url(../components/blogs.css);
 /* about section number 2  optional */
 @import url(../components/about2andservices.css);
@@ -33,3 +31,10 @@
 /*         pages                  */
 @import url(../pages/signup.css);
 @import url(../pages/blog.css);
+@import url(../pages/faq.css);
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
+/* fontawsome CDN */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
