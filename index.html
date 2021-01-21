@@ -71,10 +71,27 @@
                   >Top Offers</a
                 >
               </li>
-              <li class="nav-item mr-5">
+              <li class="nav-item">
                 <a class="nav-link hvr-underline-from-center" href="#"
                   >Contact Us</a
                 >
+              </li>
+              <li class="nav-item dropdown mr-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Homepage
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> Homepage 1</a></li>
+                  <li><a class="dropdown-item" href="#"> Homepage 2</a></li>
+                  <li><a class="dropdown-item" href="#"> Homepage 3</a></li>
+                </ul>
               </li>
               <li class="nav-tiem login__btn">
                 <a href="signup.html" type="submit"
@@ -614,7 +631,7 @@
     <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/jquery-ui.min.js"></script>
     <script src="JS/owl.carousel.js"></script>
-
+    <script src="JS/main.js"></script>
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -646,7 +663,7 @@
           nav.classList.toggle("sticky", window.scrollY > 4);
         });
       });
-      var scrollsrc = "IMGS/logo-example-3.png";
+      var scrollsrc = "Workshop files - Senior Steps/logo example 2.jpg";
       var initialscr = "IMGS/PU99Te5u4U.svg";
       $(window).scroll(function () {
         var value = $(this).scrollTop();
