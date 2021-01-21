@@ -43,7 +43,7 @@ p {
 }
 
 .blog-content h4 {
-  color: var(--main-color);
+  color: var(--blogs-header);
   font-size: 2rem;
   margin-left: 0.5rem;
 }

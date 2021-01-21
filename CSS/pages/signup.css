@@ -1,4 +1,4 @@
-.form-body {
+/* .form-body {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -10,7 +10,7 @@
   background: linear-gradient(to right, #007fe8 0%, #00cde0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007fe8', endColorstr='#00cde0',GradientType=1 );
   font-family: "Nunito", sans-serif;
-}
+} */
 
 input,
 button {

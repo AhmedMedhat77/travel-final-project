@@ -8,6 +8,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  height: 80vh;
 }
 
 .about .about__content {
