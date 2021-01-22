@@ -32,27 +32,99 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse p-3" id="navbarResponsive">
-            <ul class="navbar-nav m-auto">
+            <ul class="navbar-nav ml-auto mr-auto">
               <li class="nav-item active">
                 <a
                   class="nav-link active-text hvr-underline-from-center"
                   href="index.html"
-                  >Home
+                  >home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#"
-                  >Services</a
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="#"> FAQ</a></li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                  <li><a class="dropdown-item" href="#"> 404</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="#">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">tour lists<i class="fas fa-chevron-right ml-5"></i></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">dashboard<i class="fas fa-chevron-right ml-5"></i></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link hvr-underline-from-center" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#"
-                  >Destination</a
-                >
               </li>
               <li class="nav-item">
                 <a class="nav-link hvr-underline-from-center" href="#">Hotel</a>
@@ -115,7 +187,7 @@
          /  S L I D E R  */
       /* ##################################################
       -->
-    <header class="clear">
+    <header class="clear" style="width: 100%">
       <div class="owl-carousel owl-theme">
         <div class="item">
           <img src="IMGS/bg2.jpg" alt="images not found" />
@@ -249,7 +321,7 @@
          /  T H E - V E D I O  -S E C T I O N  */
       /* ##################################################
       -->
-    <section class="top-places">
+    <section class="top-places container">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
@@ -806,8 +878,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Copyrights -->
         <div class="bg-light py-4">
           <div class="container text-center">
             <p class="text-muted mb-0 py-2">

@@ -1,6 +1,6 @@
 .logo {
   width: 100px;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
   padding: 0;
 }
 .navbar ul li a {
@@ -76,7 +76,7 @@ nav.sticky .hvr-underline-from-center:before {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 15px 15px;
+  padding: 15px 0px;
   clear: both;
   font-weight: 400;
   color: #181825;
@@ -108,6 +108,33 @@ nav.sticky .hvr-underline-from-center:before {
   transform: scaleY(1);
   opacity: 1;
   visibility: visible;
+}
+.dropdown-submenu:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 17px;
+  top: 25px;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0px;
+  left: 100%;
+  margin-left: 13px;
+  margin-right: 0.1rem;
+}
+.dropdown-toggle::after{
+  content: none;
 }
 @media screen and (max-width: 770px) {
   .nav-item {
