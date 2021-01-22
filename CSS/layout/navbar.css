@@ -1,9 +1,11 @@
 .logo {
-  width: 80px;
-  margin-left: 20px;
+  width: 100px;
+	margin:0 20px;
+	padding: 0;
+
 }
 .navbar ul li a {
-  color: var(--main-black-color);
+  color: var(--main-white-color);
   letter-spacing: 0.2px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -33,16 +35,11 @@
 }
 nav.sticky {
   padding: 1px 10px;
-<<<<<<< HEAD
   background-color: #EAEBED;
   /* background: #4ca1af;
   background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
   background: linear-gradient(to right, #c4e0e5, #4ca1af);
   box-shadow: gray 4px 0px 15px; */
-=======
-  background-color: #fff;
-  box-shadow: gray 4px 0px 15px;
->>>>>>> origin/main
 }
 nav.sticky ul li a {
   color: var(--main-black-color);
@@ -65,7 +62,7 @@ nav.sticky .hvr-underline-from-center:before {
 	float: left;
 	min-width: 16rem;
 	padding: 12px;
-	margin: 18px 0px;
+	margin: 19px 0px;
 	font-size: 1rem;
 	color: #d0d1da;
 	text-align: left;

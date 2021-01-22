@@ -146,12 +146,12 @@ header:hover .owl-next {
   opacity: 1;
 }
 
- /*search box css start here*/
- .search-sec{
+/*search box css start here*/
+.search-sec {
   padding: 2rem;
-  z-index: 1123;
+  z-index: 20;
 }
-.search-slt{
+.search-slt {
   display: block;
   width: 100%;
   font-size: 1rem;
@@ -161,27 +161,27 @@ header:hover .owl-next {
   background-image: none;
   border: 1px solid #ccc;
   height: calc(3rem + 2px) !important;
-  border-radius:0;
+  border-radius: 0;
 }
-.wrn-btn{
+.wrn-btn {
   width: 100%;
   font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
   height: calc(3rem + 2px) !important;
-  border-radius:0;
+  border-radius: 0;
 }
 
-@media (min-width: 992px){
-  .search-sec{
-      position: relative;
-      top: -114px;
-      background: rgba(228, 244, 255, 0.51);
+@media (min-width: 992px) {
+  .search-sec {
+    position: relative;
+    top: -114px;
+    background: rgba(228, 244, 255, 0.51);
   }
 }
 
-@media (max-width: 992px){
-  .search-sec{
-      background:  rgba(228, 244, 255, 0.51);
+@media (max-width: 992px) {
+  .search-sec {
+    background: rgba(228, 244, 255, 0.51);
   }
 }
