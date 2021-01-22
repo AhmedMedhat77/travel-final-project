@@ -35,16 +35,11 @@
 }
 nav.sticky {
   padding: 1px 10px;
-<<<<<<< HEAD
   background-color: #EAEBED;
   /* background: #4ca1af;
   background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
   background: linear-gradient(to right, #c4e0e5, #4ca1af);
   box-shadow: gray 4px 0px 15px; */
-=======
-  background-color: #fff;
-  box-shadow: gray 4px 0px 15px;
->>>>>>> 14d45e1ad41f58c2fe0442911fdc564982cfddf6
 }
 nav.sticky ul li a {
   color: var(--main-black-color);
@@ -55,7 +50,6 @@ nav.sticky .hvr-underline-from-center:before {
   height: 3px;
 }
 
-<<<<<<< HEAD
 /*-------------------------------------------------------------------8. Navigations-------------------------------------------------------------------*/
 /*-------------------- Navigation classic ---------------------*/
 .dropdown-menu {
@@ -117,8 +111,6 @@ nav.sticky .hvr-underline-from-center:before {
 		visibility: visible;
 	}
 	
-=======
->>>>>>> 14d45e1ad41f58c2fe0442911fdc564982cfddf6
 @media screen and (max-width: 770px) {
   .nav-item {
     border-bottom: 1px solid gray;
