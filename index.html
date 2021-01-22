@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="CSS/main/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel</title>
-  <link rel="stylesheet" href="CSS/main/main.css" />
-</head>
-
-<body>
-  <!--
+  <body>
+    <!--
         #####################################################
          / N A V B A R */
       /* ##################################################
@@ -102,279 +101,335 @@
               </li>
             </ul>
           </div>
-      </div>
-    </nav>
-  </div>
-  <!--
+        </div>
+      </nav>
+    </div>
+    <!--
         #####################################################
          /  E N D - O F - N A V B A R */
       /* ##################################################
       -->
 
-  <!--
+    <!--
         #####################################################
          /  S L I D E R  */
       /* ##################################################
       -->
-  <header class="clear">
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img src="IMGS/bg2.jpg" alt="images not found" />
-        <div class="cover">
-          <div class="container">
-            <span class="spacing"></span><br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line"></div>
-              <h2>Teimagine Digital Experience with</h2>
-              <h1>Start-ups and solutions</h1>
-              <h4>
-                We help entrepreneurs, start-ups and enterprises shape their
-                ideas into products
-              </h4>
+    <header class="clear">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="IMGS/bg2.jpg" alt="images not found" />
+          <div class="cover">
+            <div class="container">
+              <span class="spacing"></span><br /><br /><br /><br />
+              <div class="header-content">
+                <div class="line"></div>
+                <h2>Teimagine Digital Experience with</h2>
+                <h1>Start-ups and solutions</h1>
+                <h4>
+                  We help entrepreneurs, start-ups and enterprises shape their
+                  ideas into products
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="display: flex">
+          <video
+            id="myVideo"
+            autoplay
+            loop
+            muted
+            style="width: 100%; object-fit: cover"
+          >
+            <source src="Vid/slider-video-background.mp4" type="video/mp4" />
+            <source src="Vid/slider-video-background.mp4" type="video/ogg" />
+          </video>
+          <div class="cover">
+            <div class="container">
+              <br /><br /><br /><br />
+              <div class="header-content">
+                <div class="line"></div>
+                <h2>Teimagine Digital Experience with</h2>
+                <h1>Start-ups and solutions</h1>
+                <h4>
+                  We help entrepreneurs, start-ups and enterprises shape their
+                  ideas into products
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="IMGS/carsouel4.jpg" alt="images not found" />
+          <div class="cover">
+            <div class="container">
+              <br /><br /><br /><br />
+              <div class="header-content">
+                <div class="line animated bounceInLeft"></div>
+                <h2>Discover The Delihts Of The Nile</h2>
+                <h1>Ancent Egypt</h1>
+                <h4>
+                  start-ups your life experiance discovering one of the oldest
+                  nation in the world
+                </h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="item" style="display: flex">
-        <video id="myVideo" autoplay loop muted style="width: 100%; object-fit: cover">
-          <source src="Vid/slider-video-background.mp4" type="video/mp4" />
-          <source src="Vid/slider-video-background.mp4" type="video/ogg" />
-        </video>
-        <div class="cover">
-          <div class="container">
-            <br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line"></div>
-              <h2>Teimagine Digital Experience with</h2>
-              <h1>Start-ups and solutions</h1>
-              <h4>
-                We help entrepreneurs, start-ups and enterprises shape their
-                ideas into products
-              </h4>
+    </header>
+    <!-- search icon -->
+    <section class="search-sec">
+      <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <input
+                    type="text"
+                    class="form-control search-slt"
+                    placeholder="Where To ?"
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <select
+                    class="form-control search-slt"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option>When ?</option>
+                    <option>JUNUARY</option>
+                    <option>Febuary</option>
+                    <option>MARCH</option>
+                    <option>APREL</option>
+                    <option>MAY</option>
+                    <option>JUEN</option>
+                    <option>JULY</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <select
+                    class="form-control search-slt"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option>Travel Type</option>
+                    <option>Adventure</option>
+                    <option>Cultural</option>
+                    <option>Discovery</option>
+                    <option>Historical</option>
+                    <option>Seaside</option>
+                    <option>Self-Guided</option>
+                    <option>Wildlife</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <button type="button" class="btn btn-warning wrn-btn">
+                    Find Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
-      <div class="item">
-        <img src="IMGS/carsouel4.jpg" alt="images not found" />
-        <div class="cover">
-          <div class="container">
-            <br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line animated bounceInLeft"></div>
-              <h2>Discover The Delihts Of The Nile</h2>
-              <h1>Ancent Egypt</h1>
-              <h4>
-                start-ups your life experiance discovering one of the oldest
-                nation in the world
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- search icon -->
-  <section class="search-sec">
-    <div class="container">
-      <form action="#" method="post" novalidate="novalidate">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <input type="text" class="form-control search-slt" placeholder="Where To ?" />
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                  <option>When ?</option>
-                  <option>JUNUARY</option>
-                  <option>Febuary</option>
-                  <option>MARCH</option>
-                  <option>APREL</option>
-                  <option>MAY</option>
-                  <option>JUEN</option>
-                  <option>JULY</option>
-                  <option>August</option>
-                  <option>September</option>
-                  <option>October</option>
-                  <option>November</option>
-                  <option>December</option>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                  <option>Travel Type</option>
-                  <option>Adventure</option>
-                  <option>Cultural</option>
-                  <option>Discovery</option>
-                  <option>Historical</option>
-                  <option>Seaside</option>
-                  <option>Self-Guided</option>
-                  <option>Wildlife</option>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <button type="button" class="btn btn-warning wrn-btn">
-                  Find Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!--
+    </section>
+    <!--
         #####################################################
          / E N D - O F - S L I D E R  */
       /* ##################################################
       -->
-  <!--
+    <!--
         #####################################################
          /  T H E - V E D I O  -S E C T I O N  */
       /* ##################################################
       -->
-  <section class="top-places">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-sm-12">
-          <div class="vedio-img">
-            <div class="vedio-img-content">
-              <div class="subtitle">
-                <p>lorem</p>
+    <section class="top-places">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="vedio-img">
+              <div class="vedio-img-content">
+                <div class="subtitle">
+                  <p>lorem</p>
+                </div>
+                <h3>Watch Our Video</h3>
+                <p>The Beauty of Buddhism</p>
+                <i class="fa fa-play-circle" aria-hidden="true"></i>
               </div>
-              <h3>Watch Our Video</h3>
-              <p>The Beauty of Buddhism</p>
-              <i class="fa fa-play-circle" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="sub-vedio-content">
+              <h2>A Simply Perfect Place To Get Lost</h2>
+              <p>
+                reat yourself with a journey to your inner self. Visit a
+                mystique Tibet and start your spiritual adventure. We promise,
+                you’ll enjoy every step you make.
+              </p>
+              <button class="btn btn-warning">SEE MORE</button>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-12">
-          <div class="sub-vedio-content">
-            <h2>A Simply Perfect Place To Get Lost</h2>
-            <p>
-              reat yourself with a journey to your inner self. Visit a
-              mystique Tibet and start your spiritual adventure. We promise,
-              you’ll enjoy every step you make.
-            </p>
-            <button class="btn btn-warning">SEE MORE</button>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
-  <!--
+    </section>
+    <!--
         #####################################################
          / E N D - O F - T H E - V E D I O - S E C T I O N  */
       /* ##################################################
       -->
 
-  <!--
+    <!--
         #####################################################
          /  Best recommended places  */
       /* ##################################################
       -->
 
-  <div class="s002 places">
+    <div class="s002 places">
+      <legend>Best recommended places</legend>
+    </div>
 
-    <legend>Best recommended places</legend>
+    <div class="container content-wrapper">
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing First Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              pariatur nemo tempore repellat? Ullam sed officia iure architecto
+              deserunt distinctio, pariatur
+            </p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
 
-  </div>
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">
+            Amazing Second Title that is Quite Long
+          </h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              obcaecati ex natus nulla rem sequi laborum quod fugit
+            </p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
 
-  <div class="container content-wrapper">
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              beatae
+            </p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
 
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing First Title</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
-            tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">
+            Amazing Forth Title that is Quite Long
+          </h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Fifth Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              pariatur nemo tempore repellat? Ullam sed officia iure architecto
+              deserunt distinctio
+            </p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt=""
+          class="news-card__image"
+        />
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing 6<sup>th</sup> Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              pariatur nemo tempore repellat? Ullam sed officia.
+            </p>
+            <a href="#" class="news-card__read-more"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing Second Title that is Quite Long</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex
-            natus nulla rem sequi laborum quod fugit&hellip;</p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img
-        src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing Title</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae&hellip;
-          </p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing Forth Title that is Quite Long</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing Fifth Title</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
-            tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="news-card">
-      <a href="#" class="news-card__card-link"></a>
-      <img src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-        alt="" class="news-card__image">
-      <div class="news-card__text-wrapper">
-        <h2 class="news-card__title">Amazing 6<sup>th</sup> Title</h2>
-        <div class="news-card__post-date">Jan 29, 2018</div>
-        <div class="news-card__details-wrapper">
-          <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
-            tempore repellat? Ullam sed officia.</p>
-          <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-
-
     <!--
       #####################################################
        /  E N D - O F - Best recommended places */
@@ -526,7 +581,10 @@
                 </p>
                 <div class="testimonial-content">
                   <div class="pic">
-                    <img src="https://picsum.photos/130/130?image=1027" alt="" />
+                    <img
+                      src="https://picsum.photos/130/130?image=1027"
+                      alt=""
+                    />
                   </div>
                   <h3 class="name">Michele Miller</h3>
                   <span class="title">Austalian</span>
@@ -728,10 +786,18 @@
               </p>
               <div class="p-1 rounded border">
                 <div class="input-group">
-                  <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
-                    class="form-control border-0 shadow-0" />
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
                   <div class="input-group-append">
-                    <button id="button-addon1" type="submit" class="btn btn-link">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
                       <i class="fa fa-paper-plane"></i>
                     </button>
                   </div>
@@ -804,6 +870,5 @@
         else $(".logo").attr("src", initialscr);
       });
     </script>
-</body>
-
+  </body>
 </html>
