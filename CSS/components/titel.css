@@ -1,0 +1,31 @@
+.s002 {
+  margin: 5vh 2vh;
+  min-height: 45vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background: url("../../IMGS/Searchs_125.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+}
+
+.s002 legend {
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .s002 legend {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
