@@ -34,7 +34,11 @@
 }
 nav.sticky {
   padding: 1px 10px;
+<<<<<<< HEAD
   background-color: #eaebed;
+=======
+  background-color: #EAEBED;
+>>>>>>> 1fe4e0386e7914719b7420f41728b9a75e6c4291
   /* background: #4ca1af;
   background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
   background: linear-gradient(to right, #c4e0e5, #4ca1af);
@@ -48,6 +52,10 @@ nav.sticky .hvr-underline-from-center:before {
   background: var(--main-black-color);
   height: 3px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1fe4e0386e7914719b7420f41728b9a75e6c4291
 /*-------------------------------------------------------------------8. Navigations-------------------------------------------------------------------*/
 /*-------------------- Navigation classic ---------------------*/
 .dropdown-menu {
@@ -109,6 +117,31 @@ nav.sticky .hvr-underline-from-center:before {
   opacity: 1;
   visibility: visible;
 }
+<<<<<<< HEAD
+=======
+@media(min-width:992px) {
+	.dropdown .dropdown-menu {
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		transform: translateY(20px);
+		-webkit-transition: all .3s ease-in;
+		-o-transition: all .3s ease-in;
+		transition: all .3s ease-in 
+}}
+	.dropdown:hover>.dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transform: scaleY(1);
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
+		opacity: 1;
+		visibility: visible;
+	}
+	
+>>>>>>> 1fe4e0386e7914719b7420f41728b9a75e6c4291
 @media screen and (max-width: 770px) {
   .nav-item {
     border-bottom: 1px solid gray;
