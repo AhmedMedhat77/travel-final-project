@@ -31,7 +31,7 @@ header .item .cover .header-content .line {
   left: 0;
   top: 0;
   position: absolute;
-  border: 9px solid var(--main-white-color);
+  border: 9px solid var(--main-color);
   -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
   clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
 }
