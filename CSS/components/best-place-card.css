@@ -111,18 +111,18 @@
 }
 
 .news-card__read-more {
-  background: black;
+  background: var(--main-color);
   color: #bbb;
   display: block;
-  padding: 0.4rem 0.6rem;
+  padding: 0.8rem 1rem;
   border-radius: 0.3rem;
   margin-top: 1rem;
   border: 1px solid #444;
-  font-size: 0.8rem;
+  font-size: 1rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   text-decoration: none;
-  width: 7rem;
+  width: 9rem;
   margin-left: auto;
   position: relative;
   z-index: 5;
