@@ -1,7 +1,12 @@
+.top-places {
+  background: #eee;
+  padding: 20px 0px;
+}
+
 .vedio-img {
-  background-image: url(../../IMGS/h1-img-1.jpg);
-  border: solid 1px black;
+  background-image: url(../../IMGS/travelperson3.jpg);
   background-size: cover;
+  box-shadow: 1px 1px 10px gray;
   background-position: center center;
   display: flex;
   width: 100%;
@@ -31,8 +36,6 @@
   color: white;
   margin-top: 5rem;
   margin-left: 2rem;
-
-  border: solid 1px white;
 }
 
 .sub-vedio-content h2 {
