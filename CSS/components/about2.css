@@ -1,0 +1,41 @@
+.aboutus {
+  margin-top: 10rem;
+}
+.about-imgs {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.about-imgs img {
+  width: 100%;
+}
+
+.inner-text p {
+  color: gray;
+  font-weight: normal;
+}
+.about-btn {
+  background: var(--main-color);
+  color: var(--main-white-color);
+  border-radius: 25px;
+}
+.about-btn:hover {
+  color: var(--main-black-color);
+}
+.about-card {
+  background-size: cover;
+  background-position: center;
+  transition: all 0.8s;
+  min-height: 20vh;
+}
+.about-card:nth-child(1) {
+  background-image: url(../../IMGS/hotel.jpg);
+}
+.about-card:nth-child(2) {
+  background-image: url(../../IMGS/joshua-earle--87JyMb9ZfU-unsplash.jpg);
+}
+.about-card:nth-child(3) {
+  background-image: url(../../IMGS/maldivs1.jpg);
+}
+.about-card:hover {
+  transform: translatey(-16px);
+}
