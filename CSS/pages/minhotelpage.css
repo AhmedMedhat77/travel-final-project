@@ -257,11 +257,6 @@
   #blog-links .blog-link:last-of-type {
     grid-column: span 2;
   }
-
-  #footer {
-    /* Grid template */
-    grid-template-columns: 48px auto 48px;
-  }
 }
 
 @media screen and (max-width: 640px) {
@@ -304,28 +299,9 @@
   #blog-links .blog-link:last-of-type {
     grid-column: span 1;
   }
-
-  #footer {
-    /* Grid template */
-    grid-template-columns: 32px auto 32px;
-  }
-
-  #footer .content h2 {
-    font-size: 30px;
-    line-height: 36px;
-  }
 }
 @media screen and (max-height: 400px) {
   #hero {
     height: 90vh;
-  }
-
-  #hero .down-button {
-    display: none;
-  }
-
-  #footer .content h2 {
-    font-size: 32px;
-    line-height: 40px;
   }
 }
