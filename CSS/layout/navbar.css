@@ -7,10 +7,11 @@
   color: var(--main-white-color);
   letter-spacing: 0.2px;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;
   transition: all 0.3s;
   text-transform: capitalize;
   text-align: center;
+  font-family: "roboto";
 }
 
 .navbar ul li a:hover {
@@ -34,14 +35,14 @@
 }
 nav.sticky {
   padding: 1px 10px;
-  background-color: #eaebed;
+  background-color: #fdfdfd;
   box-shadow: gray 4px 0px 15px;
 }
 nav.sticky ul li a {
   color: var(--main-black-color);
 }
 nav.sticky .hvr-underline-from-center:before {
-  background: var(--main-black-color);
+  background: var(--main-white-color);
   height: 3px;
 }
 /*-------------------------------------------------------------------8. Navigations-------------------------------------------------------------------*/
@@ -61,7 +62,8 @@ nav.sticky .hvr-underline-from-center:before {
   color: #d0d1da;
   text-align: left;
   list-style: none;
-  background-color: gray;
+  background-image: url(../../IMGS/h1-img-4.jpg);
+  background-size: cover;
   background-clip: padding-box;
   border: none;
   border-radius: none;
@@ -75,10 +77,9 @@ nav.sticky .hvr-underline-from-center:before {
   padding: 15px 0px;
   clear: both;
   font-weight: 400;
-  color: #181825;
+  color: var(--main-white-color) !important;
   text-align: inherit;
   white-space: nowrap;
-  background-color: transparent;
   border: 0;
   font-size: 15px;
   line-height: 15px;

@@ -19,7 +19,6 @@
 
 /*          components       */
 @import url(../components/buttons.css);
-@import url(../components/header.css);
 @import url(../components/slider.css);
 @import url(../components/vediosection.css);
 @import url(../components/blogs.css);
@@ -42,3 +41,4 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 /* Roboto font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");

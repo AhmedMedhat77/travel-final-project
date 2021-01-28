@@ -5,9 +5,12 @@
   margin: 100px 15px 160px;
   position: relative;
 }
-.demo{
-  background: rgba(190, 190, 190, 0.61);;
+.testemonla-section {
+  background-image: url(../../IMGS/h1-img-3.jpg);
+  background-size: cover;
+  margin-bottom: 10rem;
 }
+
 .clints-review {
   width: 100%;
   height: 100px;

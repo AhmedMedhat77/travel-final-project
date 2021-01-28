@@ -1,6 +1,7 @@
 .top-places {
   background: #eee;
   padding: 20px 0px;
+  margin-top: 1rem;
 }
 
 .vedio-img {
@@ -10,11 +11,12 @@
   background-position: center center;
   display: flex;
   width: 100%;
+  min-height: 70vh;
 }
 .vedio-img-content {
   align-items: flex-start;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 9rem;
   margin-left: 4rem;
   font-size: 2rem;
   max-width: 200px;
