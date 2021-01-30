@@ -12,14 +12,20 @@
          / N A V B A R */
       /* ##################################################
       -->
+
     <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img id="nav__logo" src="IMGS/PU99Te5u4U.svg" class="logo" alt="" />
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler navbar-light"
             type="button"
             data-toggle="collapse"
             data-target="#navbarResponsive"
@@ -29,31 +35,108 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav m-auto">
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
               <li class="nav-item active">
                 <a
                   class="nav-link active-text hvr-underline-from-center"
                   href="index.html"
-                  >Home
+                  >home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#"
-                  >Services</a
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="#"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#"
-                  >Destination</a
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="#">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link hvr-underline-from-center" href="#">Hotel</a>
+                <a class="nav-link hvr-underline-from-center" href="hotels.html"
+                  >Hotel</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link hvr-underline-from-center" href="#"
@@ -73,6 +156,12 @@
               <li class="nav-item">
                 <a class="nav-link hvr-underline-from-center" href="#"
                   >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">login</button></a
                 >
               </li>
             </ul>
