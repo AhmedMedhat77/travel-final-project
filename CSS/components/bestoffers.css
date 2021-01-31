@@ -13,10 +13,16 @@
 }
 .best-offers-content h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 100;
   color: var(--main-color);
+  font-family: "Roboto";
   font-style: italic;
 }
+.best-offers-content span {
+  font-weight: 600;
+  display: block;
+}
+
 .best-offers-content p {
   color: var(--main-white-color);
   max-width: 40rem;
