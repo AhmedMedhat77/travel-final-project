@@ -15,3 +15,7 @@ ul {
 .clear {
   clear: both;
 }
+*::selection{
+  background-color: rgb(206, 193, 19);
+  color: #fff;
+}

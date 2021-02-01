@@ -19,15 +19,15 @@
 
 /*          components       */
 @import url(../components/buttons.css);
-@import url(../components/header.css);
 @import url(../components/slider.css);
 @import url(../components/vediosection.css);
 @import url(../components/blogs.css);
 @import url(../components/titel.css);
 @import url(../components/best-place-card.css);
-@import url(../components/hotel-cards.css);
+@import url(../components/contact-us.css);
+@import url(../components/bestoffers.css);
 /* about section number 2  optional */
-@import url(../components/about2andservices.css);
+@import url(../components/about2.css);
 /* services optional  */
 @import url(../components/services.css);
 
@@ -35,10 +35,16 @@
 @import url(../pages/signup.css);
 @import url(../pages/blog.css);
 @import url(../pages/faq.css);
+<<<<<<< HEAD
 @import url(../pages/search.css);
+=======
+@import url(../pages/minhotelpage.css);
+@import URL(../pages/bestofferspage.css);
+>>>>>>> 765491b217790362f465612f5eb697e45d58cad2
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
 /* fontawsome CDN */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 /* Roboto font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");

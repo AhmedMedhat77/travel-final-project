@@ -1,544 +1,641 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel</title>
-  <link rel="stylesheet" href="CSS/main/main.css" />
-</head>
-
-<body>
-  <!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main/main.css" />
+  </head>
+  <body>
+    <!--
         #####################################################
          / N A V B A R */
       /* ##################################################
       -->
 
-  <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand p-0 ml-3" href="#">
-          <img id="nav__logo" src="IMGS/logo example 2.svg" class="logo" alt="" />
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="#"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="#">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="hotels.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Resturant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">login</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--
+          #####################################################
+           /  E N D - O F - N A V B A R */
+        /* ##################################################
+        -->
+    <div class="container-fluid p-0">
+      <div class="section" id="hero">
+        <div class="content">
+          <h1 id="brand">Travel & Calture</h1>
+          <p id="sub-brand-text">Travellers Choise</p>
+        </div>
+        <!-- slider -->
+        <a
+          id="hero-down-button"
+          class="down-button"
+          data-speed="1000"
+          href="#blog-links"
+        >
+          <img
+            src="https://s3-ap-southeast-1.amazonaws.com/sem-content/misc/interior-designer-blog/down-arrow.png"
+            alt="Show links"
+          />
         </a>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse p-3" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link active-text hvr-underline-from-center" href="index.html">home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li><a class="dropdown-item" href="#"> About Us</a></li>
-                <li><a class="dropdown-item" href="#"> Our Team</a></li>
-                <li><a class="dropdown-item" href="#"> Contact</a></li>
-                <li><a class="dropdown-item" href="#"> FAQ</a></li>
-                <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
-                <li><a class="dropdown-item" href="#"> 404</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                destination
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li>
-                  <a class="dropdown-item" href="#"> Destination List</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Destination Item</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                tours
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-2">
-                <li>
-                  <a class="dropdown-item" href="#">tour single</a>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">tour lists<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#"> standard</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"> gallery</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">dashboard<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">my profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">edit profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">My Booking</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Hotel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Resturant</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Car Rental</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Top Offers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item dropdown mr-5">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Homepage
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li><a class="dropdown-item" href="#"> Homepage 1</a></li>
-                <li><a class="dropdown-item" href="#"> Homepage 2</a></li>
-                <li><a class="dropdown-item" href="#"> Homepage 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-tiem login__btn">
-              <a href="signup.html" type="submit"><button class="btn btn-primary">login</button></a>
-            </li>
-          </ul>
+        <div class="video-wrapper">
+          <video
+            id="hero-video"
+            src="https://s3-ap-southeast-1.amazonaws.com/sem-content/misc/interior-designer-blog/hero-video.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
         </div>
       </div>
-    </nav>
-  </div>
-  <!--
-        #####################################################
-         /  E N D - O F - N A V B A R */
-      /* ##################################################
-      -->
+      <!-- end of slider -->
+      <div class="section" id="blog-links">
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col2" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/15115101/shutterstock_167076143-940x400.jpg);
+            "
+          ></div>
+          <h3>Lauxury Hotels & Sweets</h3>
+        </a>
+        <a class="blog-link type-paragraph-2-1 row1 col3" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/11164046/shutterstock_646806055.jpg);
+            "
+          ></div>
+          <h3>Modern Houses For Family Rental</h3>
+          <p>
+            Your bedroom is an extension of yourself, a respite from your day’s
+            work, and a safe haven for your personal thoughts and time. As soon
+            as your eyes fall on your bed, you feel relaxed and at peace. For
+            these reasons it is important that your bedroom should represent who
+            you are and what you like.
+          </p>
+          <p>
+            There are various ways in which you can do up your bed wall,
+            depending on your aesthetics and utility. Here are a few ...
+          </p>
+          <p class="continue btn btn-warning">Continue reading</p>
+        </a>
+        <a class="blog-link type-color-2-1 row2 col1" href="#">
+          <h3>Ideas for Travel : 5 Ways to Reduce Your Travel expences</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row2 col2" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/13143621/shutterstock_4950170771-940x400.jpg);
+            "
+          ></div>
+          <h3>Top Resturants & Dinner Meetings</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row2 col3" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/06160520/Mad-Design-3-940x400.jpg);
+            "
+          ></div>
+          <h3>Spruce Up Your Family With Modern Hotel Room</h3>
+        </a>
+        <a class="blog-link type-image-2-2 row3 col1" href="#">
+          <span>Tips</span>
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/11164046/shutterstock_646806055.jpg);
+            "
+          ></div>
+          <h3>Choose Your Hotel Based On Your Own Prefrences</h3>
+        </a>
+        <a class="blog-link type-heading-1-1 row3 col3" href="#">
+          <h3>
+            The Best Services for Travelling Experiance & Hotel Reservations
+          </h3>
+        </a>
 
-  <!--
-        #####################################################
-         /  S L I D E R  */
-      /* ##################################################
-      -->
-  <header class="clear" style="width: 100%">
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img src="IMGS/bg2.jpg" alt="images not found" />
-        <div class="cover">
-          <div class="container">
-            <span class="spacing"></span><br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line"></div>
-              <h2>Teimagine Digital Experience with</h2>
-              <h1>Start-ups and solutions</h1>
-              <h4>
-                We help entrepreneurs, start-ups and enterprises shape their
-                ideas into products
-              </h4>
-            </div>
-          </div>
+        <a class="blog-link type-heading-1-1 row3_5 col3" href="#">
+          <h3>How to Choose The Right Hotel for Your Needs</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a class="blog-link type-image-2-1 row1 col1" href="#">
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+        <a
+          class="blog-link type-image-2-1 row1 col1"
+          href="https://www.urbanclap.com/blog/home-improvement/use-of-natural-stones-in-interior-design/"
+        >
+          <div
+            class="article-image"
+            style="
+              background-image: url(https://de927adv5b23k.cloudfront.net/wp-content/uploads/2017/09/18171925/shutterstock_236969923.jpg);
+            "
+          ></div>
+          <h3>Modern Designed Hotels</h3>
+        </a>
+      </div>
+      <div class="contianer">
+        <!-- navigation Buttons -->
+        <div class="nav-buttons">
+          <nav aria-label="Page navigation bolg-navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="item" style="display: flex">
-        <video id="myVideo" autoplay loop muted style="width: 100%; object-fit: cover">
-          <source src="Vid/slider-video-background.mp4" type="video/mp4" />
-          <source src="Vid/slider-video-background.mp4" type="video/ogg" />
-        </video>
-        <div class="cover">
-          <div class="container">
-            <br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line"></div>
-              <h2>Teimagine Digital Experience with</h2>
-              <h1>Start-ups and solutions</h1>
-              <h4>
-                We help entrepreneurs, start-ups and enterprises shape their
-                ideas into products
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img src="IMGS/carsouel4.jpg" alt="images not found" />
-        <div class="cover">
-          <div class="container">
-            <br /><br /><br /><br />
-            <div class="header-content">
-              <div class="line animated bounceInLeft"></div>
-              <h2>Discover The Delihts Of The Nile</h2>
-              <h1>Ancent Egypt</h1>
-              <h4>
-                start-ups your life experiance discovering one of the oldest
-                nation in the world
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- search icon -->
-  <section class="search-sec">
-    <div class="container">
-      <form action="#" method="post" novalidate="novalidate">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <input type="text" class="form-control search-slt" placeholder="Where To ?" />
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                  <option>When ?</option>
-                  <option>JUNUARY</option>
-                  <option>Febuary</option>
-                  <option>MARCH</option>
-                  <option>APREL</option>
-                  <option>MAY</option>
-                  <option>JUEN</option>
-                  <option>JULY</option>
-                  <option>August</option>
-                  <option>September</option>
-                  <option>October</option>
-                  <option>November</option>
-                  <option>December</option>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                  <option>Travel Type</option>
-                  <option>Adventure</option>
-                  <option>Cultural</option>
-                  <option>Discovery</option>
-                  <option>Historical</option>
-                  <option>Seaside</option>
-                  <option>Self-Guided</option>
-                  <option>Wildlife</option>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                <button type="button" class="btn btn-warning wrn-btn">
-                  Find Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!--
-        #####################################################
-         / E N D - O F - S L I D E R  */
-      /* ##################################################
-      -->
 
-
-
-  <!--
-        #####################################################
-         / Hotel Cards */
-      /* ##################################################
-      -->
-  <main class="page-content">
-    <div class="card">
-      <div class="content">
-        <h2 class="title">To The Beach</h2>
-        <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Desert Destinations</h2>
-        <p class="copy">It's the desert you've always dreamed of</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Explore The Galaxy</h2>
-        <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">To The Beach</h2>
-        <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Desert Destinations</h2>
-        <p class="copy">It's the desert you've always dreamed of</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Explore The Galaxy</h2>
-        <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">To The Beach</h2>
-        <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Desert Destinations</h2>
-        <p class="copy">It's the desert you've always dreamed of</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Explore The Galaxy</h2>
-        <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">To The Beach</h2>
-        <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Desert Destinations</h2>
-        <p class="copy">It's the desert you've always dreamed of</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Explore The Galaxy</h2>
-        <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-        <button class="hotel-btn">Book Now</button>
-      </div>
-    </div>
-  </main>
-
-  <!--
-        #####################################################
-         / E N D - O F - Hotel Cards */
-      /* ##################################################
-      -->
-
-  <!--
+      <!--
         #####################################################
          / F O O T E R */
       /* ##################################################
       -->
-  <section class="footer">
-    <footer>
-      <div class="container py-5">
-        <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <img src="#" alt="" width="180" class="mb-3" />
-            <p class="font-italic text-muted">
-              Happily To Surve You The best & Introduce You To The Travilling
-              World
-            </p>
-            <ul>
-              <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-tumblr-square"></i></a>
-                <a href="#"><i class="fab fa-spotify"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">Education Opportuinities</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Employee Perks</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Meet our people and staff</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Apply now</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">E-Payments</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Mobile Reservation & Pay</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Download App</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Family Fun Hub</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">History</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Blog</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Single Day Trips</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Nile Cruses</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Register</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Wishlist</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Products</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-            <p class="text-muted mb-4">
-              Enter Your Mail If You Want One Of Our Team To Contact With You
-            </p>
-            <div class="p-1 rounded border">
-              <div class="input-group">
-                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
-                  class="form-control border-0 shadow-0" />
-                <div class="input-group-append">
-                  <button id="button-addon1" type="submit" class="btn btn-link">
-                    <i class="fa fa-paper-plane"></i>
-                  </button>
+      <section class="footer">
+        <footer>
+          <div class="container py-5">
+            <div class="row py-4">
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <img src="#" alt="" width="180" class="mb-3" />
+                <p class="font-italic text-muted">
+                  Happily To Surve You The best & Introduce You To The
+                  Travilling World
+                </p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Education Opportuinities</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Employee Perks</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Meet our people and staff</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Apply now</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">E-Payments</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Download App</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Family Fun Hub</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Top Offers</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">History</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Hotels</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Top Offers</a>
+                  </li>
+                  <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Our Blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Single Day Trips</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Nile Cruses</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Register</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Wishlist</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-muted">Our Products</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                <p class="text-muted mb-4">
+                  Enter Your Mail If You Want One Of Our Team To Contact With
+                  You
+                </p>
+                <div class="p-1 rounded border">
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Enter your email address"
+                      aria-describedby="button-addon1"
+                      class="form-control border-0 shadow-0"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        id="button-addon1"
+                        type="submit"
+                        class="btn btn-link"
+                      >
+                        <i class="fa fa-paper-plane"></i>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="bg-light py-4">
-        <div class="container text-center">
-          <p class="text-muted mb-0 py-2">
-            © 2021 Senior Group 1 All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-  </section>
-  <!--
-        #####################################################
-         /  E N D - O F - F O O T E R */
-      /* ##################################################
-      -->
+          <div class="bg-light py-4">
+            <div class="container text-center">
+              <p class="text-muted mb-0 py-2">
+                © 2021 Senior Group 1 All rights reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!--
+          #####################################################
+           /  E N D - O F - F O O T E R */
+        /* ##################################################
+        -->
+    </div>
+    <!-- scripts -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
 
-  <!-- scripts -->
-  <script src="JS/jquery.js"></script>
-  <script src="JS/bootstrap.min.js"></script>
-  <script src="JS/bootstrap.bundle.min.js"></script>
-  <script src="JS/jquery-ui.min.js"></script>
-  <script src="JS/owl.carousel.js"></script>
-  <script src="js/hotel-cards.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        dots: false,
-        nav: false,
-        mouseDrag: true,
-        autoplay: true,
-        animateOut: "slideOutUp",
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 1,
-          },
-          1000: {
-            items: 1,
-          },
-        },
+    <script>
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
+        });
       });
-    });
-
-    // navbar js change color and logo when scroll
-    $(document).ready(function () {
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 4);
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
       });
-    });
-    var scrollsrc = "IMGS/logo_example_2-removebg1.png";
-    var initialscr = "IMGS/logo example 2.svg";
-    $(window).scroll(function () {
-      var value = $(this).scrollTop();
-      if (value > 10) $(".logo").attr("src", scrollsrc);
-      else $(".logo").attr("src", initialscr);
-    });
-  </script>
-</body>
 
+      // DOM Elements
+      var vid = document.getElementById("hero-video");
+      var brand = document.getElementById("brand");
+      var subBrand = document.getElementById("sub-brand-text");
+      var heroDownButton = document.getElementById("hero-down-button");
+
+      // Show logo on video load
+      vid.oncanplay = function () {
+        showSubBrand();
+        setTimeout(showBrand, 1000);
+        setTimeout(showDownButton, 2000);
+      };
+
+      function showBrand() {
+        brand.classList.add("h1-appear");
+      }
+
+      function showSubBrand() {
+        subBrand.classList.add("p-appear");
+      }
+
+      function showDownButton() {
+        heroDownButton.classList.add("img-appear");
+      }
+
+      // Smooth scrolling
+      (function () {
+        "use strict";
+        // Feature Test
+        if (
+          "querySelector" in document &&
+          "addEventListener" in window &&
+          Array.prototype.forEach
+        ) {
+          // Function to animate the scroll
+          var smoothScroll = function (anchor, duration) {
+            // Calculate how far and how fast to scroll
+            var startLocation = window.pageYOffset;
+            var endLocation = anchor.offsetTop;
+            var distance = endLocation - startLocation;
+            var increments = distance / (duration / 16);
+            var stopAnimation;
+
+            // Scroll the page by an increment, and check if it's time to stop
+            var animateScroll = function () {
+              window.scrollBy(0, increments);
+              stopAnimation();
+            };
+
+            // If scrolling down
+            if (increments >= 0) {
+              // Stop animation when you reach the anchor OR the bottom of the page
+              stopAnimation = function () {
+                var travelled = window.pageYOffset;
+                if (
+                  travelled >= endLocation - increments ||
+                  window.innerHeight + travelled >= document.body.offsetHeight
+                ) {
+                  clearInterval(runAnimation);
+                }
+              };
+            } else {
+              // If scrolling up
+              // Stop animation when you reach the anchor OR the top of the page
+              stopAnimation = function () {
+                var travelled = window.pageYOffset;
+                if (travelled <= (endLocation || 0)) {
+                  clearInterval(runAnimation);
+                }
+              };
+            }
+
+            // Loop the animation function
+            var runAnimation = setInterval(animateScroll, 16);
+          };
+
+          // Define smooth scroll links
+          var scrollToggle = document.querySelectorAll(".down-button");
+
+          // For each smooth scroll link
+          [].forEach.call(scrollToggle, function (toggle) {
+            // When the smooth scroll link is clicked
+            toggle.addEventListener(
+              "click",
+              function (e) {
+                // Prevent the default link behavior
+                e.preventDefault();
+
+                // Get anchor link and calculate distance from the top
+                var dataID = toggle.getAttribute("href");
+                var dataTarget = document.querySelector(dataID);
+                var dataSpeed = toggle.getAttribute("data-speed");
+
+                // If the anchor exists
+                if (dataTarget) {
+                  // Scroll to the anchor
+                  smoothScroll(dataTarget, dataSpeed || 500);
+                }
+              },
+              false
+            );
+          });
+        }
+      })();
+    </script>
+  </body>
 </html>
