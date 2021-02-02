@@ -1,13 +1,14 @@
 .best-offers {
-  margin-top: 5rem;
+  margin-top: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background: fixed;
   background-image: url(../../IMGS/Searchs_125.png);
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  min-height: 55vh;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
   margin-bottom: 2rem;
 }
@@ -27,6 +28,9 @@
   color: var(--main-white-color);
   max-width: 40rem;
 }
+
+
+/* cards */
 
 .wsk-cp-product {
   background: #fff;

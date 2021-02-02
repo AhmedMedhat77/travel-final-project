@@ -5,6 +5,10 @@
   border-radius: 50%;
   font-size: 15px;
 }
+.footer ul li a:hover {
+  text-decoration: none;
+  font-weight: 500;
+}
 .footer .fa-facebook:hover,
 .fa-twitter:hover {
   background: #175d97;

@@ -162,7 +162,7 @@
 
               <li class="nav-tiem login__btn">
                 <a href="#" type="submit"
-                  ><button class="btn btn-primary">login</button></a
+                  ><button class="btn btn-primary">LogIn</button></a
                 >
               </li>
             </ul>
@@ -326,7 +326,14 @@
                 </div>
                 <h3>Watch Our Video</h3>
                 <p>The Beauty of Travilling</p>
-                <i class="fa fa-play-circle" aria-hidden="true"></i>
+              <a class="video-link" href="https://www.youtube.com/embed/ONaPq2L-MRg?html5=1" data-width="1920" data-height="1080")
+              | Open video>  <i
+                  class="fa fa-play-circle"
+                  aria-hidden="true"
+                  id="play-vedio"
+                ></i>
+              </a>
+
               </div>
             </div>
           </div>
@@ -607,18 +614,13 @@
       /* ##################################################
       -->
     <section class="best-offers">
-      <div class="contianer">
-        <div class="row">
-          <div class="best-offers-content">
-            <h2>Buy a Tour Without <span>Leaving Your Home</span></h2>
-            <p>
-              Using our website, you can easily find and book any tour you want.
-              Mobile users will definitely enjoy our app available on all
-              devices.
-            </p>
-            <button class="btn btn-warning">Book Now</button>
-          </div>
-        </div>
+      <div class="best-offers-content">
+        <h2>Buy a Tour Without <span>Leaving Your Home</span></h2>
+        <p>
+          Using our website, you can easily find and book any tour you want.
+          Mobile users will definitely enjoy our app available on all devices.
+        </p>
+        <button class="btn btn-warning">Book Now</button>
       </div>
     </section>
     <div class="shell">
@@ -1152,20 +1154,42 @@
         else $(".logo").attr("src", initialscr);
       });
 
-      // back to top
-      $(function () {
-        //Scroll event
-        $(window).scroll(function () {
-          var scrolled = $(window).scrollTop();
-          if (scrolled > 200) $(".go-top").fadeIn("slow");
-          if (scrolled < 200) $(".go-top").fadeOut("slow");
+      // vedio
+      var $iframe = $('iframe'),
+    $videoLink = $('.video-link'),
+    playerTemplate = '<div class="player"><div class="player__video"><div class="video-filler"></div><button class="video-close">&times;</button><iframe class="video-iframe" src="{{iframevideo}}" frameborder="0" allowfullscreen></iframe></div><div/>';
+
+
+$videoLink.on('click', function(e) {
+    var localTemplate = '',
+        videoWidth = parseInt($(this).data('width')),
+        videoHeight = parseInt($(this).data('height')),
+        videoAspect = ( videoHeight / videoWidth ) * 100,
+        // elements
+        $player = null,
+        $video = null,
+        $close = null,
+        $iframe = null;
+
+    e.preventDefault();
+
+    localTemplate = playerTemplate.replace('{{iframevideo}}', $(this).prop('href'));
+
+    $player = $(localTemplate);
+
+    $player
+        .find('.video-filler')
+        .css('padding-top', videoAspect + '%');
+
+    $close = $player
+        .find('.video-close')
+        .on('click', function() {
+            $(this).off().closest('.player').hide().remove();
         });
 
-        //Click event
-        $(".go-top").click(function () {
-          $("html, body").animate({ scrollTop: "0" }, 1000);
-        });
-      });
+    $player.appendTo('body').addClass('js--show-video');
+});
+      
     </script>
   </body>
 </html>
