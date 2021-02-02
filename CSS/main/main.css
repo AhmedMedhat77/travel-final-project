@@ -35,12 +35,8 @@
 @import url(../pages/signup.css);
 @import url(../pages/blog.css);
 @import url(../pages/faq.css);
-<<<<<<< HEAD
-@import url(../pages/search.css);
-=======
 @import url(../pages/minhotelpage.css);
 @import URL(../pages/bestofferspage.css);
->>>>>>> 765491b217790362f465612f5eb697e45d58cad2
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
 /* fontawsome CDN */

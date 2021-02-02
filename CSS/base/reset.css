@@ -1,6 +1,6 @@
 html {
   line-height: 1.6px;
-  font-family: 'Roboto' , sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   padding: 0;
@@ -15,7 +15,7 @@ ul {
 .clear {
   clear: both;
 }
-*::selection{
+*::selection {
   background-color: rgb(206, 193, 19);
   color: #fff;
 }
