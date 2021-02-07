@@ -35,29 +35,8 @@ F A Q TITEL
   }
 }
 
-/* -------------------------------- 
-END F A Q TITEL
--------------------------------- */
 
-/* table {
-  border-collapse: collapse;
-  border-spacing: 0;
-} */
-
-/* *,
-*::after,
-*::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-
-/* *::after,
-*::before {
-  content: "";
-} */
-
-faq-body::after {
+.faq-body::after {
   /* overlay layer visible on small devices when the right panel slides in */
   position: fixed;
   top: 0;
@@ -85,11 +64,6 @@ faq-body.cd-overlay::after {
     content: "";
   }
 }
-
-/* a {
-  color: #a9c056;
-  text-decoration: none;
-} */
 
 .cd-faq {
   width: 90%;

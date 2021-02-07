@@ -37,7 +37,8 @@
 @import url(../pages/blog.css);
 @import url(../pages/faq.css);
 @import url(../pages/minhotelpage.css);
-@import URL(../pages/bestofferspage.css);
+@import url(../pages/bestofferspage.css);
+@import url(../pages/tours.css);
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
 /* fontawsome CDN */

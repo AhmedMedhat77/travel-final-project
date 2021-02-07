@@ -1,0 +1,131 @@
+.tours-page-header {
+  background-image: url(../../IMGS/greek.jpg);
+  font-family: "Aral", sans-serif;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+.tours {
+  margin-top: 4rem;
+}
+/* tour cards */
+.tours-img-contianer {
+  width: 100%;
+}
+
+.tours-img {
+  background: url(../../IMGS/malisa.jpg);
+  min-height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+
+/* rating icons */
+.tours-content .fa-star {
+  color: gold;
+}
+.tours-content span {
+  display: flex;
+  padding: 5px;
+}
+.tours-content h4 {
+  font-family: "Roboto";
+  font-size: medium;
+  color: var(--main-black-color);
+  letter-spacing: 2px;
+}
+.tours-content p {
+  font-size: small;
+  color: gray;
+}
+
+.tours-header h1 {
+  letter-spacing: 0.2rem;
+  font-family: "Open-sans-serf", "San-serf";
+}
+.tours-header p {
+  font-size: 25px;
+  font-family: "Roboto";
+  letter-spacing: 0.3rem;
+  color: gold;
+}
+.best-offers-section-page {
+  background-color: #f6f6f6;
+  margin-top: 3rem;
+}
+/* form-section */
+.form-contianer {
+  max-height: 32rem;
+  background: #2c2e3e;
+  color: #fff;
+  border: solid 1px #242636;
+  padding: 2em 20px;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.tour-btn {
+  background: var(--main-color);
+  color: var(--mian-white-color);
+  display: flex;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 25px;
+  padding: 4px 35px;
+}
+.rating {
+  font-family: "open-sans-serf";
+}
+.pricing label {
+  font-size: 20px;
+  font-family: "open-sans-serf";
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+}
+.rating-title h4 {
+  letter-spacing: 3px;
+  margin-top: 2rem;
+  font-weight: normal;
+  font-family: "open-sans-serf";
+}
+.star-rating i {
+  color: var(--main-color);
+  padding: 20px 0;
+}
+/* page buttons */
+.page-item a {
+  padding: 20px;
+  color: var(--main-black-color);
+}
+.page-item a:hover {
+  background: var(--main-color);
+  color: #fff !important;
+}
+/* regester section */
+.tours-regester-img {
+  background: fixed;
+  background-image: url(../../IMGS/cliff.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+.tour-regester-content {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+.tour-regester-content h4 {
+  letter-spacing: 2px;
+  font-family: "open-sans-serf";
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.submit-from {
+  display: flex;
+}
+.regester-submit {
+  border-radius: 25px;
+}
