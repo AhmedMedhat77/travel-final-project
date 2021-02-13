@@ -52,13 +52,7 @@
 .about-card:hover {
   transform: translatey(-16px);
 }
-.video {
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  display: block;
-  border: none;
-}
+
 .close-btn {
   width: 100px;
   height: 50px;

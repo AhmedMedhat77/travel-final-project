@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
     <link rel="stylesheet" href="CSS/main/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!--
         #####################################################
          / N A V B A R */
@@ -16,121 +15,166 @@
       -->
 
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand p-0 ml-3" href="#">
-                    <img id="nav__logo" src="IMGS/logo example 2.svg" class="logo" alt="" />
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
                 </a>
-                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse p-3" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link active-text hvr-underline-from-center" href="index.html">home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                pages
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menu-1">
-                                <li><a class="dropdown-item" href="#"> About Us</a></li>
-                                <li><a class="dropdown-item" href="#"> Our Team</a></li>
-                                <li><a class="dropdown-item" href="#"> Contact</a></li>
-                                <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
-                                <li>
-                                    <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                destination
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menu-1">
-                                <li>
-                                    <a class="dropdown-item" href="#"> Destination List</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"> Destination Item</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-2"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                tours
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menu-2">
-                                <li>
-                                    <a class="dropdown-item" href="#">tour single</a>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">tour lists<i
-                                            class="fas fa-chevron-right ml-5"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="#"> standard</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#"> gallery</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">dashboard<i
-                                            class="fas fa-chevron-right ml-5"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="#">my profile</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">edit profile</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">My Booking</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="hotels.html">Hotel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="#">Resturant</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="#">Car Rental</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="#">Top Offers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-underline-from-center" href="#">Contact Us</a>
-                        </li>
-
-                        <li class="nav-tiem login__btn">
-                            <a href="#" type="submit"><button class="btn btn-primary">login</button></a>
-                        </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="#">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="hotels.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Resturant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">login</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
     <!--
         #####################################################
          /  E N D - O F - N A V B A R */
       /* ##################################################
       -->
-
 
     <!--
         #####################################################
@@ -139,172 +183,215 @@
       -->
 
     <div class="blogs002 col-12">
-        <legend>Blogs</legend>
-        <br>
-        <div class="container-fluid">
-            <div class="row tm-row">
-                <div class="col-12">
-                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">
-                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..."
-                            aria-label="Search">
-                        <button class="tm-search-button" type="submit">
-                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
+      <legend>Blogs</legend>
+      <br />
+      <div class="container-fluid">
+        <div class="row tm-row">
+          <div class="col-12">
+            <form method="GET" class="form-inline tm-mb-80 tm-search-form">
+              <input
+                class="form-control tm-search-input"
+                name="query"
+                type="text"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+              <button class="tm-search-button" type="submit">
+                <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="container-fluid">
-        <main class="tm-main">
-
-            <div class="row tm-row">
-                <div class="col-12">
-                    <hr class="tm-hr-primary tm-mb-55">
-                    <!-- Video player 1422x800 -->
-                    <!-- <video   controls autoplay width="954" height="535" controls class="tm-mb-40">
+      <main class="tm-main">
+        <div class="row tm-row">
+          <div class="col-12">
+            <hr class="tm-hr-primary tm-mb-55" />
+            <!-- Video player 1422x800 -->
+            <!-- <video   controls autoplay width="954" height="535" controls class="tm-mb-40">
                         <source src="https://youtu.be/efmgzSc_H9k"  type="video/mp4">
                         Your browser does not support the video tag.
                     </video> -->
-                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/efmgzSc_H9k" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="row tm-row">
-                <div class="col-lg-8 tm-post-col">
-                    <div class="tm-post-full">
-                        <div class="mb-4">
-                            <h2 class="pt-2 tm-color-primary tm-post-title">Single Post of Xtra Blog HTML Template</h2>
-                            <p class="tm-mb-40">June 16, 2020 posted by Admin Nat</p>
-                            <p>
-                                This is a description of the video post. You can also have an image instead of
-                                the video. You can free download
-                                <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">Xtra
-                                    Blog Template</a>
-                                from TemplateMo website. Phasellus maximus quis est sit amet maximus. Vestibulum vel
-                                rutrum
-                                lorem, ac sodales augue. Aliquam erat volutpat. Duis lectus orci, blandit in arcu
-                                est, elementum tincidunt lectus. Praesent vel justo tempor, varius lacus a,
-                                pharetra lacus.
-                            </p>
-                            <p>
-                                Duis pretium efficitur nunc. Mauris vehicula nibh nisi. Curabitur gravida neque
-                                dignissim, aliquet nulla sed, condimentum nulla. Pellentesque id venenatis
-                                quam, id cursus velit. Fusce semper tortor ac metus iaculis varius. Praesent
-                                aliquam ex vel lectus ornare tristique. Nunc et eros quis enim feugiat tincidunt
-                                et vitae dui.
-                            </p>
-                            <span class="d-block text-right tm-color-primary">Creative . Design . Business</span>
-                        </div>
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/efmgzSc_H9k"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="row tm-row">
+          <div class="col-lg-8 tm-post-col">
+            <div class="tm-post-full">
+              <div class="mb-4">
+                <h2 class="pt-2 tm-color-primary tm-post-title">
+                  Single Post of Xtra Blog HTML Template
+                </h2>
+                <p class="tm-mb-40">June 16, 2020 posted by Admin Nat</p>
+                <p>
+                  This is a description of the video post. You can also have an
+                  image instead of the video. You can free download
+                  <a
+                    rel="nofollow"
+                    href="https://templatemo.com/tm-553-xtra-blog"
+                    target="_blank"
+                    >Xtra Blog Template</a
+                  >
+                  from TemplateMo website. Phasellus maximus quis est sit amet
+                  maximus. Vestibulum vel rutrum lorem, ac sodales augue.
+                  Aliquam erat volutpat. Duis lectus orci, blandit in arcu est,
+                  elementum tincidunt lectus. Praesent vel justo tempor, varius
+                  lacus a, pharetra lacus.
+                </p>
+                <p>
+                  Duis pretium efficitur nunc. Mauris vehicula nibh nisi.
+                  Curabitur gravida neque dignissim, aliquet nulla sed,
+                  condimentum nulla. Pellentesque id venenatis quam, id cursus
+                  velit. Fusce semper tortor ac metus iaculis varius. Praesent
+                  aliquam ex vel lectus ornare tristique. Nunc et eros quis enim
+                  feugiat tincidunt et vitae dui.
+                </p>
+                <span class="d-block text-right tm-color-primary"
+                  >Creative . Design . Business</span
+                >
+              </div>
 
-                        <!-- Comments -->
-                        <div>
-                            <h2 class="tm-color-primary tm-post-title">Comments</h2>
-                            <hr class="tm-hr-primary tm-mb-45">
-                            <div class="tm-comment tm-mb-45">
-                                <figure class="tm-comment-figure">
-                                    <img src="../travel-final-project/IMGS/comment-1.jpg" alt="Image"
-                                        class="mb-2 rounded-circle img-thumbnail">
-                                    <figcaption class="tm-color-primary text-center">Mark Sonny</figcaption>
-                                </figure>
-                                <div>
-                                    <p>
-                                        Praesent aliquam ex vel lectus ornare tritique. Nunc et eros
-                                        quis enim feugiat tincidunt et vitae dui. Nullam consectetur
-                                        justo ac ex laoreet rhoncus. Nunc id leo pretium, faucibus
-                                        sapien vel, euismod turpis.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <a href="#" class="tm-color-primary">REPLY</a>
-                                        <span class="tm-color-primary">June 14, 2020</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tm-comment-reply tm-mb-45">
-                                <hr>
-                                <div class="tm-comment">
-                                    <figure class="tm-comment-figure">
-                                        <img src="../travel-final-project/IMGS/comment-2.jpg" alt="Image"
-                                            class="mb-2 rounded-circle img-thumbnail">
-                                        <figcaption class="tm-color-primary text-center">Jewel Soft</figcaption>
-                                    </figure>
-                                    <p>
-                                        Nunc et eros quis enim feugiat tincidunt et vitae dui.
-                                        Nullam consectetur justo ac ex laoreet rhoncus. Nunc
-                                        id leo pretium, faucibus sapien vel, euismod turpis.
-                                    </p>
-                                </div>
-                                <span class="d-block text-right tm-color-primary">June 21, 2020</span>
-                            </div>
-                            <form action="" class="mb-5 tm-comment-form">
-                                <h2 class="tm-color-primary tm-post-title mb-4">Your comment</h2>
-                                <div class="mb-4">
-                                    <input class="form-control" name="name" type="text">
-                                </div>
-                                <div class="mb-4">
-                                    <input class="form-control" name="email" type="text">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="form-control" name="message" rows="6"></textarea>
-                                </div>
-                                <div class="text-right">
-                                    <button class="tm-btn tm-btn-primary tm-btn-small">Submit</button>
-                                </div>
-                            </form>
-                        </div>
+              <!-- Comments -->
+              <div>
+                <h2 class="tm-color-primary tm-post-title">Comments</h2>
+                <hr class="tm-hr-primary tm-mb-45" />
+                <div class="tm-comment tm-mb-45">
+                  <figure class="tm-comment-figure">
+                    <img
+                      src="IMGS/comment-1.jpg"
+                      alt="Image"
+                      class="mb-2 rounded-circle img-thumbnail"
+                    />
+                    <figcaption class="tm-color-primary text-center">
+                      Mark Sonny
+                    </figcaption>
+                  </figure>
+                  <div>
+                    <p>
+                      Praesent aliquam ex vel lectus ornare tritique. Nunc et
+                      eros quis enim feugiat tincidunt et vitae dui. Nullam
+                      consectetur justo ac ex laoreet rhoncus. Nunc id leo
+                      pretium, faucibus sapien vel, euismod turpis.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <a href="#" class="tm-color-primary">REPLY</a>
+                      <span class="tm-color-primary">June 14, 2020</span>
                     </div>
+                  </div>
                 </div>
-                <aside class="col-lg-4 tm-aside-col">
-                    <div class="tm-post-sidebar">
-                        <hr class="mb-3 tm-hr-primary">
-                        <h2 class="mb-4 tm-post-title tm-color-primary">Categories</h2>
-                        <ul class="tm-mb-75 pl-5 tm-category-list">
-                            <li><a href="#" class="tm-color-primary">Visual Designs</a></li>
-                            <li><a href="#" class="tm-color-primary">Travel Events</a></li>
-                            <li><a href="#" class="tm-color-primary">Web Development</a></li>
-                            <li><a href="#" class="tm-color-primary">Video and Audio</a></li>
-                            <li><a href="#" class="tm-color-primary">Etiam auctor ac arcu</a></li>
-                            <li><a href="#" class="tm-color-primary">Sed im justo diam</a></li>
-                        </ul>
-                        <hr class="mb-3 tm-hr-primary">
-                        <h2 class="tm-mb-40 tm-post-title tm-color-primary">Related Posts</h2>
-                        <a href="#" class="d-block tm-mb-40">
-                            <figure>
-                                <img src="../travel-final-project/IMGS/4.jpg" alt="Image" class="mb-3 img-fluid">
-                                <figcaption class="tm-color-primary">Duis mollis diam nec ex viverra scelerisque a sit
-                                </figcaption>
-                            </figure>
-                        </a>
-                        <a href="#" class="d-block tm-mb-40">
-                            <figure>
-                                <img src="../travel-final-project/IMGS/4.jpg" alt="Image" class="mb-3 img-fluid">
-                                <figcaption class="tm-color-primary">Integer quis lectus eget justo ullamcorper
-                                    ullamcorper</figcaption>
-                            </figure>
-                        </a>
-                        <a href="#" class="d-block tm-mb-40">
-                            <figure>
-                                <img src="../travel-final-project/IMGS/4.jpg" alt="Image" class="mb-3 img-fluid">
-                                <figcaption class="tm-color-primary">Nam lobortis nunc sed faucibus commodo</figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </aside>
+                <div class="tm-comment-reply tm-mb-45">
+                  <hr />
+                  <div class="tm-comment">
+                    <figure class="tm-comment-figure">
+                      <img
+                        src="IMGS/comment-2.jpg"
+                        alt="Image"
+                        class="mb-2 rounded-circle img-thumbnail"
+                      />
+                      <figcaption class="tm-color-primary text-center">
+                        Jewel Soft
+                      </figcaption>
+                    </figure>
+                    <p>
+                      Nunc et eros quis enim feugiat tincidunt et vitae dui.
+                      Nullam consectetur justo ac ex laoreet rhoncus. Nunc id
+                      leo pretium, faucibus sapien vel, euismod turpis.
+                    </p>
+                  </div>
+                  <span class="d-block text-right tm-color-primary"
+                    >June 21, 2020</span
+                  >
+                </div>
+                <form action="" class="mb-5 tm-comment-form">
+                  <h2 class="tm-color-primary tm-post-title mb-4">
+                    Your comment
+                  </h2>
+                  <div class="mb-4">
+                    <input class="form-control" name="name" type="text" />
+                  </div>
+                  <div class="mb-4">
+                    <input class="form-control" name="email" type="text" />
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                    ></textarea>
+                  </div>
+                  <div class="text-right">
+                    <button class="tm-btn tm-btn-primary tm-btn-small">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
-            <footer class="row tm-row">
-                <div class="col-md-6 col-12 tm-color-gray">
-                    Design: <a rel="nofollow" target="_parent" href="https://templatemo.com"
-                        class="tm-external-link">TemplateMo</a>
-                </div>
-                <div class="col-md-6 col-12 tm-color-gray tm-copyright">
-                    Copyright 2020 Xtra Blog Company Co. Ltd.
-                </div>
-            </footer>
-        </main>
+          </div>
+          <aside class="col-lg-4 tm-aside-col">
+            <div class="tm-post-sidebar">
+              <hr class="mb-3 tm-hr-primary" />
+              <h2 class="mb-4 tm-post-title tm-color-primary">Categories</h2>
+              <ul class="tm-mb-75 pl-5 tm-category-list">
+                <li><a href="#" class="tm-color-primary">Visual Designs</a></li>
+                <li><a href="#" class="tm-color-primary">Travel Events</a></li>
+                <li>
+                  <a href="#" class="tm-color-primary">Web Development</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-color-primary">Video and Audio</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-color-primary">Etiam auctor ac arcu</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-color-primary">Sed im justo diam</a>
+                </li>
+              </ul>
+              <hr class="mb-3 tm-hr-primary" />
+              <h2 class="tm-mb-40 tm-post-title tm-color-primary">
+                Related Posts
+              </h2>
+              <a href="#" class="d-block tm-mb-40">
+                <figure>
+                  <img src="IMGS/4.jpg" alt="Image" class="mb-3 img-fluid" />
+                  <figcaption class="tm-color-primary">
+                    Duis mollis diam nec ex viverra scelerisque a sit
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="#" class="d-block tm-mb-40">
+                <figure>
+                  <img src="IMGS/4.jpg" alt="Image" class="mb-3 img-fluid" />
+                  <figcaption class="tm-color-primary">
+                    Integer quis lectus eget justo ullamcorper ullamcorper
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="#" class="d-block tm-mb-40">
+                <figure>
+                  <img src="IMGS/4.jpg" alt="Image" class="mb-3 img-fluid" />
+                  <figcaption class="tm-color-primary">
+                    Nam lobortis nunc sed faucibus commodo
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </main>
     </div>
-    <hr class="tm-hr-primary tm-mb-55">
+    <hr class="tm-hr-primary tm-mb-55" />
 
     <!--
           #####################################################
@@ -318,125 +405,133 @@
       /* ##################################################
       -->
     <section class="footer">
-        <footer>
-            <div class="container py-5">
-                <div class="row py-4">
-                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                        <img src="#" alt="" width="180" class="mb-3" />
-                        <p class="font-italic text-muted">
-                            Happily To Surve You The best & Introduce You To The Travilling
-                            World
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-tumblr-square"></i></a>
-                                <a href="#"><i class="fab fa-spotify"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Education Opportuinities</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Employee Perks</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Meet our people and staff</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Apply now</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">E-Payments</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Mobile Reservation & Pay</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Download App</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Family Fun Hub</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Top Offers</a>
-                            </li>
-                            <li class="mb-2"><a href="#" class="text-muted">History</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Top Offers</a>
-                            </li>
-                            <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Our Blog</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Single Day Trips</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Nile Cruses</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Register</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Wishlist</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#" class="text-muted">Our Products</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-                        <p class="text-muted mb-4">
-                            Enter Your Mail If You Want One Of Our Team To Contact With You
-                        </p>
-                        <div class="p-1 rounded border">
-                            <div class="input-group">
-                                <input type="email" placeholder="Enter your email address"
-                                    aria-describedby="button-addon1" class="form-control border-0 shadow-0" />
-                                <div class="input-group-append">
-                                    <button id="button-addon1" type="submit" class="btn btn-link">
-                                        <i class="fa fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <footer>
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <img src="#" alt="" width="180" class="mb-3" />
+              <p class="font-italic text-muted">
+                Happily To Surve You The best & Introduce You To The Travilling
+                World
+              </p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                  <a href="#"><i class="fab fa-spotify"></i></a>
+                </li>
+              </ul>
             </div>
-            <div class="bg-light py-4">
-                <div class="container text-center">
-                    <p class="text-muted mb-0 py-2">
-                        © 2021 Senior Group 1 All rights reserved.
-                    </p>
-                </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Education Opportuinities</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Employee Perks</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Meet our people and staff</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Apply now</a>
+                </li>
+              </ul>
             </div>
-        </footer>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">E-Payments</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Download App</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Family Fun Hub</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Blog</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Single Day Trips</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Nile Cruses</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">
+                Enter Your Mail If You Want One Of Our Team To Contact With You
+              </p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">
+              © 2021 Senior Group 1 All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </section>
     <!--
         #####################################################
@@ -452,61 +547,59 @@
     <script src="js/best-place-card.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-
     <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                dots: false,
-                nav: false,
-                mouseDrag: true,
-                autoplay: true,
-                animateOut: "slideOutUp",
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 1,
-                    },
-                    1000: {
-                        items: 1,
-                    },
-                },
-            });
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          dots: false,
+          nav: false,
+          mouseDrag: true,
+          autoplay: true,
+          animateOut: "slideOutUp",
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
         });
+      });
 
-        // navbar js change color and logo when scroll
-        $(document).ready(function () {
-            window.addEventListener("scroll", function () {
-                var nav = document.querySelector("nav");
-                nav.classList.toggle("sticky", window.scrollY > 4);
-            });
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
         });
-        var scrollsrc = "IMGS/logo_example_2-removebg1.png";
-        var initialscr = "IMGS/logo example 2.svg";
+      });
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
+      });
+
+      // back to top
+      $(function () {
+        //Scroll event
         $(window).scroll(function () {
-            var value = $(this).scrollTop();
-            if (value > 10) $(".logo").attr("src", scrollsrc);
-            else $(".logo").attr("src", initialscr);
+          var scrolled = $(window).scrollTop();
+          if (scrolled > 200) $(".go-top").fadeIn("slow");
+          if (scrolled < 200) $(".go-top").fadeOut("slow");
         });
 
-        // back to top
-        $(function () {
-            //Scroll event
-            $(window).scroll(function () {
-                var scrolled = $(window).scrollTop();
-                if (scrolled > 200) $(".go-top").fadeIn("slow");
-                if (scrolled < 200) $(".go-top").fadeOut("slow");
-            });
-
-            //Click event
-            $(".go-top").click(function () {
-                $("html, body").animate({ scrollTop: "0" }, 1000);
-            });
+        //Click event
+        $(".go-top").click(function () {
+          $("html, body").animate({ scrollTop: "0" }, 1000);
         });
+      });
     </script>
-</body>
-
+  </body>
 </html>

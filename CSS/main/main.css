@@ -21,24 +21,23 @@
 @import url(../components/buttons.css);
 @import url(../components/slider.css);
 @import url(../components/vediosection.css);
-@import url(../components/blogs.css);
 @import url(../components/titel.css);
 @import url(../components/best-place-card.css);
 @import url(../components/contact-us.css);
+@import url(../components/blogs.css);
 @import url(../components/bestoffers.css);
-@import url(../components/FAQ.css);
-@import url(../components/new-blog.css);
+
 /* about section number 2  optional */
 @import url(../components/about2.css);
 /* services optional  */
 @import url(../components/services.css);
 
 /*         pages                  */
+@import url(../pages/FAQ.css);
+@import url(../pages/new-blog.css);
 @import url(../pages/signup.css);
-@import url(../pages/blog.css);
-@import url(../pages/faq.css);
 @import url(../pages/minhotelpage.css);
-@import url(../pages/bestofferspage.css);
+@import url(../pages/Hotelpage2.css);
 @import url(../pages/tours.css);
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
