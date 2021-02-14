@@ -28,27 +28,101 @@
 }
 /* / head content  */
 /* tour cards */
-.tours-img-contianer {
+
+/* DEMO GENERAL ============================== */
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+
+/* DEMO 3 ============================== */
+.hover-3::after {
+  content: '';
+  width: calc(100% - 2rem);
+  height: calc(100% - 3rem);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+  opacity: 0;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
   width: 100%;
 }
 
-.tours-img {
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
 
-  min-height: 20rem;
-  background-position: center;
-  background-size: cover;
-  box-shadow:  0 0 0 2000px inset rgba(0, 0, 0, 0.3);
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
 }
-.tours-img:nth-child(1) {
-  background-image: url(../../IMGS/1.jpg);
- 
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
 }
-.tours-img:nth-child(2){
-  background-image: url(../../IMGS/coursel3.jpg);
-}
-.tours-img:nth-child(3){
-  background-image: url(../../IMGS/japan.jpg);
-}
+
+
 
 /* rating icons */
 .tours-content .fa-star {
