@@ -26,6 +26,7 @@
 @import url(../components/contact-us.css);
 @import url(../components/blogs.css);
 @import url(../components/bestoffers.css);
+@import url(../components/backtotopbutton.css);
 
 /* about section number 2  optional */
 @import url(../components/about2.css);
@@ -39,6 +40,8 @@
 @import url(../pages/minhotelpage.css);
 @import url(../pages/Hotelpage2.css);
 @import url(../pages/tours.css);
+@import url(../pages/honeymoon.css);
+@import url(../pages/singlepackage.css);
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
 /* fontawsome CDN */

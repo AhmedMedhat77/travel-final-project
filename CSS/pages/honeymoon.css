@@ -1,0 +1,86 @@
+.honeymoon-page-header {
+  background-image: url(../../IMGS/honeymoon.jpg);
+  font-family: "Aral", sans-serif;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+}
+
+.honey-date {
+  height: 50px;
+}
+.honey-img img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+}
+.honey-reserve-btn {
+  padding: 10px 40px;
+  border: solid 1px gray;
+}
+.honey-reserve-btn:hover {
+  background: gold;
+  color: white;
+}
+
+.honey-content span {
+  color: rgb(206, 11, 11);
+  letter-spacing: 2px;
+}
+.honey-content p {
+  letter-spacing: 1px;
+  font-family: "roboto";
+}
+.honey-content h3 {
+  font-family: " Arial, sans-serif";
+  font-size: 4rem;
+}
+.control-buttons {
+  font-size: 50px;
+  margin: auto;
+}
+/* mid section  */
+.honey-mid-section {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.mid-section-img {
+  background-image: url(../../IMGS/honeymid.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.mid-section-img h3 {
+  font-size: 3rem;
+  font-family: "open-sans-serf";
+}
+.mid-section-img p {
+  color: var(--main-color);
+}
+/* Honey moon cards */
+.baseBlock {
+  margin: 0px 0px 35px 0px;
+  padding: 0 0 15px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 390px;
+  background: #fff;
+  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.baseBlock:hover {
+  -webkit-transform: translate(0, -8px);
+  -moz-transform: translate(0, -8px);
+  -ms-transform: translate(0, -8px);
+  -o-transform: translate(0, -8px);
+  transform: translate(0, -8px);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}

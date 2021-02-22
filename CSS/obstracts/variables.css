@@ -8,4 +8,18 @@
   --nav-links: rgb(46, 46, 46);
   --about-content: #c0a8a4;
   --blogs-header: #b13333;
+  --dark-green: #9cc675;
+  --dark-yellow: #e89a3d;
+  --extra-light-brown: #fdf0d7;
+  --light-brown: #ecd5ab;
+  --dark-brown: #915b40;
+  --light-yellow: #f8e3a8;
+  --light-red: #f3ac99;
+  --light-teal: #a6c8cc;
+  --light-gray: #ddd5d6;
+  --theme-color2: #e89a3d;
+}
+.fa-search {
+  color: #fff;
+  padding: 3px;
 }
