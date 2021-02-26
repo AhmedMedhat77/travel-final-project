@@ -1,18 +1,17 @@
 .aboutus {
   margin-top: 8rem;
- 
 }
 .aboutus-titile {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .aboutus-titile h2 {
   font-size: 3rem;
   letter-spacing: 0.3rem;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 600;
+  font-family: "open-sans-serf";
+  font-weight: 400;
   color: var(--main-color);
+  border-bottom: 2px rgb(7, 7, 49) solid;
 }
 .about-imgs {
   display: flex;

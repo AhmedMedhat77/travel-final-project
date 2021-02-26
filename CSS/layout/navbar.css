@@ -11,11 +11,14 @@
   transition: all 0.3s;
   text-transform: capitalize;
   text-align: center;
-  font-family: "roboto";
+  font-family: "open-sans-serf";
 }
-
+.navbar .login__btn {
+  margin-left: 4rem;
+}
 .navbar ul li a:hover {
   color: gold !important;
+  background: none;
 }
 /* hover master  */
 .hvr-underline-from-center:before {
@@ -42,8 +45,8 @@ nav.sticky ul li a {
   color: var(--main-black-color);
 }
 nav.sticky .hvr-underline-from-center:before {
-  background: var(--main-white-color);
   height: 3px;
+  background: var(--main-color);
 }
 /*-------------------------------------------------------------------8. Navigations-------------------------------------------------------------------*/
 /*-------------------- Navigation classic ---------------------*/
@@ -139,7 +142,7 @@ nav.sticky .hvr-underline-from-center:before {
   }
   .navbar-collapse {
     border: 1px solid lightgray;
-    background: gray;
+    background: grey;
   }
   .login__btn {
     margin-top: 10px;

@@ -59,10 +59,9 @@
   z-index: 99;
 }
 
-
 /* DEMO 3 ============================== */
 .hover-3::after {
-  content: '';
+  content: "";
   width: calc(100% - 2rem);
   height: calc(100% - 3rem);
   border: 1px solid #fff;
@@ -122,9 +121,24 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
-
-
+.bottom-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 767px) and(max-width:1024px) {
+  .bottom-search {
+    flex-direction: row;
+  }
+}
 /* rating icons */
+.rating-section {
+  display: flex;
+  flex-direction: column;
+}
+.star-rating {
+  margin: auto;
+}
 .tours-content .fa-star {
   color: gold;
 }

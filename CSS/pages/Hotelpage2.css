@@ -70,10 +70,10 @@
 /* clints review */
 .top-clints-review {
   margin-top: 3rem;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
-  background-color: rgb(245, 131, 1);
+  background-color: #252d31;
   font-family: "Open Sans";
 }
 
@@ -252,7 +252,7 @@
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
-  z-index: 1000;
+  z-index: 90;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
@@ -337,7 +337,6 @@ figure.effect-zoe p.icon-links a span::before {
   display: inline-block;
   padding: 8px 10px;
   font-family: "feathericons";
-  speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -445,12 +444,6 @@ figure.effect-chico:hover p {
     width: 100%;
   }
 }
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -462,6 +455,12 @@ figure.effect-chico:hover p {
 
 .our-rooms {
   text-align: center;
+  margin-top: -7rem;
+}
+@media (max-width: 820px) {
+  .our-rooms {
+    margin-top: 0rem;
+  }
 }
 
 .content {
@@ -562,7 +561,6 @@ figure.effect-chico:hover p {
   font-variant: normal;
   font-family: "codropsicons";
   line-height: 1;
-  speak: none;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -628,10 +626,21 @@ figure.effect-chico:hover p {
 .our-rooms-card {
   margin-top: 2rem;
 }
+
 /* carousl rooms slider */
-.rooms-big-slider {
-  margin-top: 100px;
+.big-hotel-slider {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
+.big-hotel-slider .title h3 {
+  margin-top: 1rem;
+  letter-spacing: 2px;
+  font-family: "open-sans-serf";
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
 .large-carsoul img {
   height: 80vh;
 }
@@ -641,4 +650,15 @@ figure.effect-chico:hover p {
 }
 .btns-control {
   display: flex;
+}
+.small-rate-rooms {
+  margin-top: 3rem;
+}
+.srate-title {
+  display: flex;
+  justify-content: center;
+}
+.srate-title .title h3 {
+  font-size: 2rem;
+  margin-bottom: 1.3rem;
 }
