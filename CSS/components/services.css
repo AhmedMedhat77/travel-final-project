@@ -17,6 +17,9 @@
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.3rem;
 }
+.services-section-title span {
+  color: #333333;
+}
 
 .services-area {
   margin-bottom: -30px;
