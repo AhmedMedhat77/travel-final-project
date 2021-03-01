@@ -254,7 +254,7 @@
                /           H E R  O           */
             /* ##################################################
             -->
-    <section class="honey-slider">
+    <!-- <section class="honey-slider">
       <div class="container">
         <div class="row">
           <div class="honey-img col-md-6">
@@ -283,7 +283,72 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><h4>
+        <div class="container">
+          <div class="row">
+            <div class="honey-img col-md-6">
+              <a href="">
+                <img src="IMGS/4.jpg" alt="" id="myimg" />
+              </a>
+            </div>
+            <div class="honey-content col-md-6">
+              <span>Featuerd Experiance</span>
+              <h3>Best Beach & Life time experiance</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio,
+                quas quidem natus nihil tempore iste ipsa temporibus ullam, unde,
+                adipisci labore incidunt dolorum sapiente fugiat possimus hic.
+                Commodi, eius eum?
+              </p>
+              <button class="btn honey-reserve-btn">Reserve Now</button>
+            </div>
+      </h4></div>
+      <div class="item"><h4>
+        <div class="container">
+          <div class="row">
+            <div class="honey-img col-md-6">
+              <a href="">
+                <img src="IMGS/6.jpg" alt="" id="myimg" />
+              </a>
+            </div>
+            <div class="honey-content col-md-6">
+              <span>Featuerd Experiance</span>
+              <h3>Reserve Your Hotel With us</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio,
+                quas quidem natus nihil tempore iste ipsa temporibus ullam, unde,
+                
+              </p>
+              <button class="btn honey-reserve-btn">Reserve Now</button>
+            </div>
+      </h4></div>
+      <div class="item"><h4>
+        <div class="container">
+          <div class="row">
+            <div class="honey-img col-md-6">
+              <a href="">
+                <img src="IMGS/couple1.jpg" alt="" id="myimg" />
+              </a>
+            </div>
+            <div class="honey-content col-md-6">
+              <span>Travelling Offers</span>
+              <h3>Find Your way & Pleasurable moments</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio,
+                quas quidem natus nihil tempore iste ipsa temporibus ullam, unde,
+                sapiente fugiat possimus hic.
+                Commodi, eius eum?
+              </p>
+              <button class="btn honey-reserve-btn">Reserve Now</button>
+            </div>
+      </h4></div>
+      
+  </div>
+
+
     <!--
               #####################################################
                /       E N D - O F - H E R  O           */
@@ -776,22 +841,45 @@
         $("html, body").animate({ scrollTop: 0 }, "300");
       });
 
-      var sliderImg = document.getElementById("myimg");
-      var imges = ["1.jpg", "3.jpg", "6.jpg"];
-      var i = 0; //current img
-      function prev() {
-        if (i <= 0) i = imges.length;
-        i--;
-        return setimg();
-      }
-      function next() {
-        if (i >= imges.length - 1) i = -1;
-        i++;
-        return setimg();
-      }
-      function setimg() {
-        return sliderImg.setAttribute("src", "IMGS/" + imges[i]);
-      }
+      // var sliderImg = document.getElementById("myimg");
+      // var imges = ["1.jpg", "3.jpg", "6.jpg"];
+      // var i = 0; //current img
+      // function prev() {
+      //   if (i <= 0) i = imges.length;
+      //   i--;
+      //   return setimg();
+      // }
+      // function next() {
+      //   if (i >= imges.length - 1) i = -1;
+      //   i++;
+      //   return setimg();
+      // }
+      // function setimg() {
+      //   return sliderImg.setAttribute("src", "IMGS/" + imges[i]);
+      // }
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:true,
+    animateOut: 'slideOutDown',
+    animateIn: 'flipInX',
+    items:1,
+    margin:30,
+    stagePadding:30,
+    smartSpeed:300,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+
     </script>
   </body>
 </html>

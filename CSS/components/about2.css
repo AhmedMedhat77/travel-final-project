@@ -6,12 +6,15 @@
   justify-content: center;
 }
 .aboutus-titile h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   letter-spacing: 0.3rem;
   font-family: "open-sans-serf";
   font-weight: 400;
   color: var(--main-color);
-  border-bottom: 2px rgb(7, 7, 49) solid;
+  border-bottom: 2px gold solid;
+}
+.aboutus-titile span {
+  color: #333333;
 }
 .about-imgs {
   display: flex;
@@ -69,7 +72,7 @@
   margin: auto;
   position: fixed;
   top: 0;
-  boxshadow: 10px 10px 10px 10px black;
+  box-shadow: 10px 10px 10px 10px black;
 }
 .popup-bg {
   background: rgba(0, 0, 0, 0.8);
