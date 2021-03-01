@@ -19,30 +19,13 @@
   border: solid 1px gray;
 }
 .honey-reserve-btn:hover {
-  background: var(--main-color);
-  color: #fff;
-  border: #fff solid 1px;
+  background: gold;
+  color: white;
 }
-.owl-theme .owl-dots,
-.owl-theme {
-  display: none;
-}
-.owl-nav {
-  font-size: 5rem;
-}
+
 .honey-content span {
   color: rgb(206, 11, 11);
   letter-spacing: 2px;
-}
-.owl-theme .owl-nav {
-  padding-top: 0;
-}
-.owl-theme .owl-nav {
-  margin-top: 0px;
-}
-.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: none;
-  color: gold;
 }
 .honey-content p {
   letter-spacing: 1px;
