@@ -1,0 +1,61 @@
+.single-header {
+  background: url(../../IMGS/europetravel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 2000px inset rgba(0, 0, 0, 0.5);
+}
+/* hero section */
+.singlep-img {
+  background: url(../../IMGS/greek.jpg);
+  background-size: cover;
+  height: 60vh;
+}
+.singlep {
+  display: flex;
+}
+.single-content {
+  font-family: "open-sans-serf";
+  margin-left: 1rem;
+}
+.single-content h2 {
+  color: var(--main-color);
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+.single-content span {
+  color: #333333;
+}
+
+.single-content p {
+  color: grey;
+  letter-spacing: 1px;
+  margin-top: 4rem;
+}
+/* end of hero */
+.trip-content {
+  margin-top: 4rem;
+}
+.tripimg-contianer {
+  display: flex;
+  flex-direction: row;
+}
+.tripimg-contianer img {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px gray;
+}
+.tripdata {
+  margin-top: 2rem;
+}
+.tripdata span {
+  color: gray;
+  font-family: "open-sans-serf";
+  font-weight: bolder;
+}
+.singleowl-img {
+  background: url(../../IMGS/greek.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}

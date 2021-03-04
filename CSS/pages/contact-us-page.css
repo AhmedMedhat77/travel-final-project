@@ -1,4 +1,4 @@
-input {
+/* input {
   outline: none;
   border: none;
 }
@@ -11,7 +11,7 @@ textarea {
 textarea:focus,
 input:focus {
   border-color: transparent !important;
-}
+} */
 
 /* input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.8);
@@ -247,7 +247,7 @@ textarea.input3 {
 @media (max-width: 576px) {
   .wrap-contact3 {
     padding: 45px 15px 50px 45px;
-    margin-top:27%;
+    margin-top: 27%;
   }
 }
 

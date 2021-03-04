@@ -1,533 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="CSS/main/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel</title>
-  <link rel="stylesheet" href="CSS/main/main.css" />
-</head>
-
-<body>
-  <!--
+  <body>
+    <!--
         #####################################################
          / N A V B A R */
       /* ##################################################
       -->
 
-  <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand p-0 ml-3" href="#">
-          <img id="nav__logo" src="IMGS/logo example 2.svg" class="logo" alt="" />
-        </a>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse p-3" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link active-text hvr-underline-from-center" href="index.html">home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li><a class="dropdown-item" href="#"> About Us</a></li>
-                <li><a class="dropdown-item" href="#"> Our Team</a></li>
-                <li><a class="dropdown-item" href="#"> Contact</a></li>
-                <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
-                <li>
-                  <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
-                </li>
-                <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                destination
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li>
-                  <a class="dropdown-item" href="#"> Destination List</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Destination Item</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                tours
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-2">
-                <li>
-                  <a class="dropdown-item" href="#">tour single</a>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">tour lists<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#"> standard</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"> gallery</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">dashboard<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">my profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">edit profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">My Booking</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="hotelpage2.html">Hotel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Resturant</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Car Rental</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Top Offers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="Contact-us.html">Contact Us</a>
-            </li>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="#">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link hvr-underline-from-center"
+                  href="hotelpage2.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Resturant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link hvr-underline-from-center"
+                  href="Contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
 
-            <li class="nav-tiem login__btn">
-              <a href="#" type="submit"><button class="btn btn-primary">login</button></a>
-            </li>
-          </ul>
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">login</button></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
-  <!--
+      </nav>
+    </div>
+    <!--
         #####################################################
          /  E N D - O F - N A V B A R */
       /* ##################################################
       -->
 
-
-  <!--
+    <!--
         #####################################################
          / B L O G S  */
       /* ##################################################
       -->
 
-  <div class="blogs002 col-12">
-    <legend>Blogs</legend>
-    <br>
-    <div class="container-fluid">
+    <div class="blogs002 col-12">
+      <legend>Blogs</legend>
+      <br />
+      <div class="container-fluid">
+        <div class="row tm-row">
+          <div class="col-12">
+            <form method="GET" class="form-inline tm-mb-80 tm-search-form">
+              <input
+                class="form-control tm-search-input"
+                name="query"
+                type="text"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+              <button class="tm-search-button" type="submit">
+                <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="tm-main">
       <div class="row tm-row">
-        <div class="col-12">
-          <form method="GET" class="form-inline tm-mb-80 tm-search-form">
-            <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..."
-              aria-label="Search">
-            <button class="tm-search-button" type="submit">
-              <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
-            </button>
-          </form>
+        <article class="col-12 col-md-6 tm-post">
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog1.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <span class="position-absolute tm-new-badge">New</span>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              Simple and useful HTML layout
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            There is a clickable image with beautiful hover effect and active
+            title link for each post item. Left side is a sticky menu bar. Right
+            side is a blog content that will scroll up and down.
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Travel . Events</span>
+            <span class="tm-color-primary">June 24, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>36 comments</span>
+            <span>by Admin Nat</span>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 tm-post">
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog2.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <span class="position-absolute tm-new-badge">New</span>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              Multi-purpose blog template
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            is amulti-purpose HTML CSS template from TemplateMo website. Blog
+            list, single post, about, contact pages are included. Left sidebar
+            fixed width and content area is a fluid full-width.
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Creative . Design . Business</span>
+            <span class="tm-color-primary">June 16, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>48 comments</span>
+            <span>by Admin Sam</span>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 tm-post">
+          <hr class="tm-hr-primary" />
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog3.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              How can you apply Xtra Blog
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            You are <u>allowed</u> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Debitis possimus quos molestias culpa, architecto
+            et nisi ratione doloribus sequi, itaque obcaecati corporis enim.
+            Aspernatur tempore dolorem id, ipsum quos magnam.
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Music . Audio</span>
+            <span class="tm-color-primary">June 11, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>24 comments</span>
+            <span>by John Walker</span>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 tm-post">
+          <hr class="tm-hr-primary" />
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog4.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              A little restriction to apply
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            You are <u>not allowed</u> Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Libero in vitae quis quas consequatur nostrum
+            dolorem unde reiciendis necessitatibus distinctio autem, fugit
+            ducimus? Odit sapiente repellendus ullam consequatur, quaerat
+            deleniti?
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Artworks . Design</span>
+            <span class="tm-color-primary">June 4, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>72 comments</span>
+            <span>by Admin Sam</span>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 tm-post">
+          <hr class="tm-hr-primary" />
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog5.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              Color hexa values of Xtra Blog
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quis
+            velit laborum dolores nihil. Quae eaque beatae quo facilis iure et
+            commodi pariatur doloribus est accusamus.
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Creative . Video . Audio</span>
+            <span class="tm-color-primary">May 31, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>84 comments</span>
+            <span>by Admin Sam</span>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 tm-post">
+          <hr class="tm-hr-primary" />
+          <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+            <div class="tm-post-link-inner">
+              <img src="IMGS/blog6.jpg" alt="Image" class="img-fluid" />
+            </div>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title">
+              Donec convallis varius risus
+            </h2>
+          </a>
+          <p class="tm-pt-30">
+            Quisque id ipsum vel sem maximus vulputate sed quis velit. Nunc vel
+            turpis eget orci elementum cursus vitae in eros. Quisque vulputate
+            nulla ut dolor consectetur luctus.
+          </p>
+          <div class="d-flex justify-content-between tm-pt-45">
+            <span class="tm-color-primary">Visual . Artworks</span>
+            <span class="tm-color-primary">June 16, 2020</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>96 comments</span>
+            <span>by Admin Sam</span>
+          </div>
+        </article>
+      </div>
+      <div class="row tm-row tm-mt-100 tm-mb-75">
+        <div class="tm-prev-next-wrapper">
+          <a
+            href="#"
+            class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20"
+            >Prev</a
+          >
+          <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
+        </div>
+        <div class="tm-paging-wrapper">
+          <span class="d-inline-block mr-3">Page</span>
+          <nav class="tm-paging-nav d-inline-block">
+            <ul>
+              <li class="tm-paging-item active">
+                <a href="#" class="mb-2 tm-btn tm-paging-link">1</a>
+              </li>
+              <li class="tm-paging-item">
+                <a href="#" class="mb-2 tm-btn tm-paging-link">2</a>
+              </li>
+              <li class="tm-paging-item">
+                <a href="#" class="mb-2 tm-btn tm-paging-link">3</a>
+              </li>
+              <li class="tm-paging-item">
+                <a href="#" class="mb-2 tm-btn tm-paging-link">4</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </div>
+    </main>
 
-
-
-  <main class="tm-main">
-
-    <div class="row tm-row">
-      <article class="col-12 col-md-6 tm-post">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
-          <div class="tm-post-link-inner">
-            <img src="IMGS/blog1.jpg" alt="Image" class="img-fluid">
-          </div>
-          <span class="position-absolute tm-new-badge">New</span>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">Simple and useful HTML layout</h2>
-        </a>
-        <p class="tm-pt-30">
-          There is a clickable image with beautiful hover effect and active title link for each post item.
-          Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Travel . Events</span>
-          <span class="tm-color-primary">June 24, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>36 comments</span>
-          <span>by Admin Nat</span>
-        </div>
-      </article>
-      <article class="col-12 col-md-6 tm-post">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
-          <div class=" tm-post-link-inner">
-            <img src="IMGS/blog2.jpg" alt="Image" class="img-fluid">
-          </div>
-          <span class="position-absolute tm-new-badge">New</span>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">Multi-purpose blog template</h2>
-        </a>
-        <p class="tm-pt-30">
-          is amulti-purpose HTML CSS template from TemplateMo website.
-          Blog list, single post, about, contact pages are included. Left sidebar fixed width and content area is a
-          fluid full-width.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Creative . Design . Business</span>
-          <span class="tm-color-primary">June 16, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>48 comments</span>
-          <span>by Admin Sam</span>
-        </div>
-      </article>
-      <article class="col-12 col-md-6 tm-post">
-        <hr class="tm-hr-primary">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
-          <div class="tm-post-link-inner">
-            <img src="IMGS/blog3.jpg" alt="Image" class="img-fluid">
-          </div>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">How can you apply Xtra Blog</h2>
-        </a>
-        <p class="tm-pt-30">
-          You are <u>allowed</u> to convert this template as any kind of CMS theme or template for your custom website
-          builder.
-          You can also use this for your clients. Thank you for choosing us.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Music . Audio</span>
-          <span class="tm-color-primary">June 11, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>24 comments</span>
-          <span>by John Walker</span>
-        </div>
-      </article>
-      <article class="col-12 col-md-6 tm-post">
-        <hr class="tm-hr-primary">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
-          <div class="tm-post-link-inner">
-            <img src="IMGS/blog4.jpg" alt="Image" class="img-fluid">
-          </div>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">A little restriction to apply</h2>
-        </a>
-        <p class="tm-pt-30">
-          You are <u>not allowed</u> to re-distribute this template as a downloadable ZIP file on any template
-          collection
-          website. This is strongly prohibited as we worked hard for this template. Please contact TemplateMo for more
-          information.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Artworks . Design</span>
-          <span class="tm-color-primary">June 4, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>72 comments</span>
-          <span>by Admin Sam</span>
-        </div>
-      </article>
-      <article class="col-12 col-md-6 tm-post">
-        <hr class="tm-hr-primary">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
-          <div class="tm-post-link-inner">
-            <img src="IMGS/blog5.jpg" alt="Image" class="img-fluid">
-          </div>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">Color hexa values of Xtra Blog</h2>
-        </a>
-        <p class="tm-pt-30">
-          If you wish to kindly support us, please contact us or contribute a small PayPal amount to info [at]
-          templatemo.com that is helpful for us.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Creative . Video . Audio</span>
-          <span class="tm-color-primary">May 31, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>84 comments</span>
-          <span>by Admin Sam</span>
-        </div>
-      </article>
-      <article class="col-12 col-md-6 tm-post">
-        <hr class="tm-hr-primary">
-        <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
-          <div class="tm-post-link-inner">
-            <img src="IMGS/blog6.jpg" alt="Image" class="img-fluid">
-          </div>
-          <h2 class="tm-pt-30 tm-color-primary tm-post-title">Donec convallis varius risus</h2>
-        </a>
-        <p class="tm-pt-30">
-          Quisque id ipsum vel sem maximus vulputate sed quis velit. Nunc vel turpis eget orci elementum cursus vitae
-          in eros. Quisque vulputate nulla ut dolor consectetur luctus.
-        </p>
-        <div class="d-flex justify-content-between tm-pt-45">
-          <span class="tm-color-primary">Visual . Artworks</span>
-          <span class="tm-color-primary">June 16, 2020</span>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-between">
-          <span>96 comments</span>
-          <span>by Admin Sam</span>
-        </div>
-      </article>
-    </div>
-    <div class="row tm-row tm-mt-100 tm-mb-75">
-      <div class="tm-prev-next-wrapper">
-        <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20">Prev</a>
-        <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
-      </div>
-      <div class="tm-paging-wrapper">
-        <span class="d-inline-block mr-3">Page</span>
-        <nav class="tm-paging-nav d-inline-block">
-          <ul>
-            <li class="tm-paging-item active">
-              <a href="#" class="mb-2 tm-btn tm-paging-link">1</a>
-            </li>
-            <li class="tm-paging-item">
-              <a href="#" class="mb-2 tm-btn tm-paging-link">2</a>
-            </li>
-            <li class="tm-paging-item">
-              <a href="#" class="mb-2 tm-btn tm-paging-link">3</a>
-            </li>
-            <li class="tm-paging-item">
-              <a href="#" class="mb-2 tm-btn tm-paging-link">4</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-  </main>
-  </div>
-  <hr class="tm-hr-primary tm-mb-55">
-  <!--
+    <hr class="tm-hr-primary tm-mb-55" />
+    <!--
           #####################################################
            / E N D - O F - B L O G S  */
         /* ##################################################
         -->
 
-  <!--
+    <!--
         #####################################################
          / F O O T E R */
       /* ##################################################
       -->
-  <section class="footer">
-    <footer>
-      <div class="container py-5">
-        <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <img src="#" alt="" width="180" class="mb-3" />
-            <p class="font-italic text-muted">
-              Happily To Surve You The best & Introduce You To The Travilling
-              World
-            </p>
-            <ul>
-              <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-tumblr-square"></i></a>
-                <a href="#"><i class="fab fa-spotify"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">Education Opportuinities</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Employee Perks</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Meet our people and staff</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Apply now</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">E-Payments</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Mobile Reservation & Pay</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Download App</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Family Fun Hub</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">History</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Blog</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Single Day Trips</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Nile Cruses</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Register</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Wishlist</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Products</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-            <p class="text-muted mb-4">
-              Enter Your Mail If You Want One Of Our Team To Contact With You
-            </p>
-            <div class="p-1 rounded border">
-              <div class="input-group">
-                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
-                  class="form-control border-0 shadow-0" />
-                <div class="input-group-append">
-                  <button id="button-addon1" type="submit" class="btn btn-link">
-                    <i class="fa fa-paper-plane"></i>
-                  </button>
+    <section class="footer">
+      <footer>
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <img src="#" alt="" width="180" class="mb-3" />
+              <p class="font-italic text-muted">
+                Happily To Surve You The best & Introduce You To The Travilling
+                World
+              </p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                  <a href="#"><i class="fab fa-spotify"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Education Opportuinities</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Employee Perks</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Meet our people and staff</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Apply now</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">E-Payments</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Download App</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Family Fun Hub</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Blog</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Single Day Trips</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Nile Cruses</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">
+                Enter Your Mail If You Want One Of Our Team To Contact With You
+              </p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-light py-4">
-        <div class="container text-center">
-          <p class="text-muted mb-0 py-2">
-            © 2021 Senior Group 1 All rights reserved.
-          </p>
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">
+              © 2021 Senior Group 1 All rights reserved.
+            </p>
+          </div>
         </div>
-      </div>
-    </footer>
-  </section>
-  <!--
+      </footer>
+    </section>
+    <!--
         #####################################################
          /  E N D - O F - F O O T E R */
       /* ##################################################
       -->
 
-  <!-- scripts -->
-  <script src="JS/jquery.js"></script>
-  <script src="JS/bootstrap.min.js"></script>
-  <script src="JS/bootstrap.bundle.min.js"></script>
-  <script src="JS/jquery-ui.min.js"></script>
-  <script src="JS/owl.carousel.js"></script>
-  <script src="js/best-place-card.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- scripts -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-ui.min.js"></script>
+    <script src="JS/owl.carousel.js"></script>
+    <script src="js/best-place-card.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        dots: false,
-        nav: false,
-        mouseDrag: true,
-        autoplay: true,
-        animateOut: "slideOutUp",
-        responsive: {
-          0: {
-            items: 1,
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          dots: false,
+          nav: false,
+          mouseDrag: true,
+          autoplay: true,
+          animateOut: "slideOutUp",
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
           },
-          600: {
-            items: 1,
-          },
-          1000: {
-            items: 1,
-          },
-        },
+        });
       });
-    });
 
-    // navbar js change color and logo when scroll
-    $(document).ready(function () {
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 4);
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
+        });
       });
-    });
-    var scrollsrc = "IMGS/logo_example_2-removebg1.png";
-    var initialscr = "IMGS/logo example 2.svg";
-    $(window).scroll(function () {
-      var value = $(this).scrollTop();
-      if (value > 10) $(".logo").attr("src", scrollsrc);
-      else $(".logo").attr("src", initialscr);
-    });
-
-    // back to top
-    $(function () {
-      //Scroll event
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
       $(window).scroll(function () {
-        var scrolled = $(window).scrollTop();
-        if (scrolled > 200) $(".go-top").fadeIn("slow");
-        if (scrolled < 200) $(".go-top").fadeOut("slow");
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
       });
 
-      //Click event
-      $(".go-top").click(function () {
-        $("html, body").animate({ scrollTop: "0" }, 1000);
-      });
-    });
-  </script>
-</body>
+      // back to top
+      $(function () {
+        //Scroll event
+        $(window).scroll(function () {
+          var scrolled = $(window).scrollTop();
+          if (scrolled > 200) $(".go-top").fadeIn("slow");
+          if (scrolled < 200) $(".go-top").fadeOut("slow");
+        });
 
+        //Click event
+        $(".go-top").click(function () {
+          $("html, body").animate({ scrollTop: "0" }, 1000);
+        });
+      });
+    </script>
+  </body>
 </html>
