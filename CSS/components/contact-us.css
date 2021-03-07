@@ -43,5 +43,5 @@ textarea.contact-form-text {
   transition: 0.5s;
 }
 .contact-form-btn:hover {
-  background: #2980b9;
+  background: rgb(255, 221, 25);
 }
