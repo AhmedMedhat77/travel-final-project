@@ -9,6 +9,7 @@
 @import url(../vendors/animate.css);
 @import url(../vendors/owl.theme.default.min.css);
 @import url(../vendors/owl.carousel.min.css);
+@import url(../vendors/select2.min.css);
 
 /*        base               */
 @import url(../base/reset.css);
@@ -42,6 +43,7 @@
 @import url(../pages/honeymoon.css);
 @import url(../pages/singlepackage.css);
 @import url(../pages/contact-us-page.css);
+@import url(../pages/sign.css);
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
 /* fontawsome CDN */
