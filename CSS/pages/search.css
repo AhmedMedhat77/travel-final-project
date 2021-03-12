@@ -1,13 +1,3 @@
-html {
-  font-family: sans-serif;
-  /* 1 */
-  
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
 header .cover .search__tabs {
   background-color: lightgray;
   text-align: center;
@@ -75,31 +65,29 @@ header .cover .search__tabs li {
   background: no-repeat;
   background-position: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.776)),
-  url(../../IMGS/Search/main/cars01.jpg);
+    url(../../IMGS/Search/main/cars01.jpg);
   position: relative;
   background-size: cover;
   padding: 115px 30px 60px 30px;
-  max-height: 100vh;
 }
 .v2-hom-search-background-tour {
   background: no-repeat;
   background-position: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.776)),
-  url(../../IMGS/Search/main/tours01.png);
+    url(../../IMGS/Search/main/tours01.png);
   position: relative;
   background-size: cover;
   padding: 115px 30px 60px 30px;
-  height: 100vh;
 }
 .v2-hom-search-background-hotel {
   background: no-repeat;
   background-position: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.776)),
-  url(../../IMGS/Search/main/hotels01.jpg);
+    url(../../IMGS/Search/main/hotels01.jpg);
   position: relative;
   background-size: cover;
   padding: 115px 30px 60px 30px;
-  height: 100vh;
+ 
 }
 .v2-ser-btn {
   text-align: center;
@@ -175,12 +163,12 @@ header .cover .search__tabs li {
     }
 } */
 /* Search Field */
-.search__tourz{
+.search__tourz {
   background-color: white;
   border-radius: 3px;
   display: flex;
   flex-wrap: wrap;
-  padding: 30px ;
+  padding: 30px;
 }
 .search__input {
   width: 100%;
@@ -188,14 +176,17 @@ header .cover .search__tabs li {
   display: flex;
   flex-wrap: nowrap;
 }
-.search__input #exampleFormControlSelect1 option{
+.search__input #exampleFormControlSelect1 option {
   padding: 30px;
 }
 select option:checked {
-  background: var(--main-color) -webkit-linear-gradient(bottom, var(--main-color) 0%, var(--main-color) 100%);
-  }
+  background: var(--main-color) -webkit-linear-gradient(bottom, var(
+          --main-color
+        )
+        0%, var(--main-color) 100%);
+}
 .search__input select {
-  background: #fff; 
+  background: #fff;
   outline: none;
 }
 .search__btn-book {

@@ -1,419 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/main/main.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="CSS/main/main.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <!--
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!--
         #####################################################
          / N A V B A R */
       /* ##################################################
       -->
 
-  <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand p-0 ml-3" href="#">
-          <img id="nav__logo" src="IMGS/logo example 2.svg" class="logo" alt="" />
-        </a>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse p-3" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link active-text hvr-underline-from-center" href="index.html">home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li><a class="dropdown-item" href="#"> About Us</a></li>
-                <li><a class="dropdown-item" href="#"> Our Team</a></li>
-                <li><a class="dropdown-item" href="#"> Contact</a></li>
-                <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
-                <li>
-                  <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
-                </li>
-                <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-1" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                destination
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-1">
-                <li>
-                  <a class="dropdown-item" href="#"> Destination List</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Destination Item</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="menu-2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                tours
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="menu-2">
-                <li>
-                  <a class="dropdown-item" href="tours.html">tour single</a>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">tour lists<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#"> standard</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"> gallery</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">dashboard<i
-                      class="fas fa-chevron-right ml-5"></i></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">my profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">edit profile</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">My Booking</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="hotelpage2.html">Hotel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="honeymoon.html">Honey Moon</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#">Car Rental</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="tours.html">Top Offers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="Contact-us.html">Contact Us</a>
-            </li>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="new-blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="tours.html">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link hvr-underline-from-center"
+                  href="hotelpage2.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link hvr-underline-from-center"
+                  href="honeymoon.html"
+                  >Honey Moon</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="tours.html"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link hvr-underline-from-center"
+                  href="Contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
 
-            <li class="nav-tiem login__btn">
-              <a href="login&Signup.html" type="submit"><button class="btn btn-primary">LogIn</button></a>
-            </li>
-          </ul>
+              <li class="nav-tiem login__btn">
+                <a href="login&Signup.html" type="submit"
+                  ><button class="btn btn-primary">LogIn</button></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
-  <!--
+      </nav>
+    </div>
+    <!--
           #####################################################
            /  E N D - O F - N A V B A R */
         /* ##################################################
         -->
-  <!--
+    <!--
           #####################################################
            / A B O U T    U S  */
         /* ##################################################
         -->
-  <div class="bg-contact3" style="background-image: url(IMGS/bg-01.jpg);">
-    <div class="container-contact3">
-      <div class="wrap-contact3">
-        <form class="contact3-form validate-form">
-          <span class="contact3-form-title">
-            <span>Contact</span> Us
-          </span>
+    <div class="bg-contact3" style="background-image: url(IMGS/bg-01.jpg)">
+      <div class="container-contact3">
+        <div class="wrap-contact3">
+          <form class="contact3-form validate-form">
+            <span class="contact3-form-title"> <span>Contact</span> Us </span>
 
-          <div class="wrap-contact3-form-radio">
-            <div class="contact3-form-radio m-r-42">
-              <input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
-              <label class="label-radio3" for="radio1">
-                Say Hi
-              </label>
+            <div class="wrap-contact3-form-radio">
+              <div class="contact3-form-radio m-r-42">
+                <input
+                  class="input-radio3"
+                  id="radio1"
+                  type="radio"
+                  name="choice"
+                  value="say-hi"
+                  checked="checked"
+                />
+                <label class="label-radio3" for="radio1"> Say Hi </label>
+              </div>
+
+              <div class="contact3-form-radio">
+                <input
+                  class="input-radio3"
+                  id="radio2"
+                  type="radio"
+                  name="choice"
+                  value="get-quote"
+                />
+                <label class="label-radio3" for="radio2"> Get a Quote </label>
+              </div>
             </div>
 
-            <div class="contact3-form-radio">
-              <input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
-              <label class="label-radio3" for="radio2">
-                Get a Quote
-              </label>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Name is required"
+            >
+              <input
+                class="input3"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+              />
+              <span class="focus-input3"></span>
             </div>
-          </div>
 
-          <div class="wrap-input3 validate-input" data-validate="Name is required">
-            <input class="input3" type="text" name="name" placeholder="Your Name">
-            <span class="focus-input3"></span>
-          </div>
-
-          <div class="wrap-input3 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-            <input class="input3" type="text" name="email" placeholder="Your Email">
-            <span class="focus-input3"></span>
-          </div>
-
-          <div class="wrap-input3 input3-select">
-            <div>
-              <select class="selection-2" name="service">
-                <option>Needed Services</option>
-                <option>Booking Hotel</option>
-                <option>Booking Tour</option>
-                <option>Rent Car</option>
-              </select>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Valid email is required: ex@abc.xyz"
+            >
+              <input
+                class="input3"
+                type="text"
+                name="email"
+                placeholder="Your Email"
+              />
+              <span class="focus-input3"></span>
             </div>
-            <span class="focus-input3"></span>
-          </div>
 
-          <div class="wrap-input3 input3-select">
-            <div>
-              <select class="selection-2" name="budget">
-                <option>Budget</option>
-                <option>1500 $</option>
-                <option>2000 $</option>
-                <option>3000 $</option>
-              </select>
+            <div class="wrap-input3 input3-select">
+              <div>
+                <select class="selection-2" name="service">
+                  <option>Needed Services</option>
+                  <option>Booking Hotel</option>
+                  <option>Booking Tour</option>
+                  <option>Rent Car</option>
+                </select>
+              </div>
+              <span class="focus-input3"></span>
             </div>
-            <span class="focus-input3"></span>
-          </div>
 
-          <div class="wrap-input3 validate-input" data-validate="Message is required">
-            <textarea class="input3" name="message" placeholder="Your Message"></textarea>
-            <span class="focus-input3"></span>
-          </div>
+            <div class="wrap-input3 input3-select">
+              <div>
+                <select class="selection-2" name="budget">
+                  <option>Budget</option>
+                  <option>1500 $</option>
+                  <option>2000 $</option>
+                  <option>3000 $</option>
+                </select>
+              </div>
+              <span class="focus-input3"></span>
+            </div>
 
-          <div class="container-contact3-form-btn">
-            <button class="contact3-form-btn">
-              Submit
-            </button>
-          </div>
-        </form>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Message is required"
+            >
+              <textarea
+                class="input3"
+                name="message"
+                placeholder="Your Message"
+              ></textarea>
+              <span class="focus-input3"></span>
+            </div>
+
+            <div class="container-contact3-form-btn">
+              <button class="contact3-form-btn">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-
-  <div id="dropDownSelect1"></div>
-  <!--
+    <div id="dropDownSelect1"></div>
+    <!--
             #####################################################
              / E N D - O F - A B O U T    U S */
           /* ##################################################
           -->
 
-  <!--
+    <!--
         #####################################################
          / F O O T E R */
       /* ##################################################
       -->
-  <section class="footer">
-    <footer>
-      <div class="container py-5">
-        <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <img src="#" alt="" width="180" class="mb-3" />
-            <p class="font-italic text-muted">
-              Happily To Surve You The best & Introduce You To The Travilling
-              World
-            </p>
-            <ul>
-              <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-tumblr-square"></i></a>
-                <a href="#"><i class="fab fa-spotify"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">Education Opportuinities</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Employee Perks</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Meet our people and staff</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Apply now</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2">
-                <a href="#" class="text-muted">E-Payments</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Mobile Reservation & Pay</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Download App</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Family Fun Hub</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">History</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Top Offers</a>
-              </li>
-              <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Blog</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Single Day Trips</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Nile Cruses</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Register</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Wishlist</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" class="text-muted">Our Products</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-            <p class="text-muted mb-4">
-              Enter Your Mail If You Want One Of Our Team To Contact With You
-            </p>
-            <div class="p-1 rounded border">
-              <div class="input-group">
-                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
-                  class="form-control border-0 shadow-0" />
-                <div class="input-group-append">
-                  <button id="button-addon1" type="submit" class="btn btn-link">
-                    <i class="fa fa-paper-plane"></i>
-                  </button>
+    <section class="footer">
+      <footer>
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <img src="#" alt="" width="180" class="mb-3" />
+              <p class="font-italic text-muted">
+                Happily To Surve You The best & Introduce You To The Travilling
+                World
+              </p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                  <a href="#"><i class="fab fa-spotify"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Education Opportuinities</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Employee Perks</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Meet our people and staff</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Apply now</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">E-Payments</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Download App</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Family Fun Hub</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Blog</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Single Day Trips</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Nile Cruses</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">
+                Enter Your Mail If You Want One Of Our Team To Contact With You
+              </p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-light py-4">
-        <div class="container text-center">
-          <p class="text-muted mb-0 py-2">
-            © 2021 Senior Group 1 All rights reserved.
-          </p>
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">
+              © 2021 Senior Group 1 All rights reserved.
+            </p>
+          </div>
         </div>
-      </div>
-    </footer>
-  </section>
-  <!--
+      </footer>
+    </section>
+    <!--
           #####################################################
            /  E N D - O F - F O O T E R */
         /* ##################################################
         -->
-  <!-- scroll top -->
-  <a id="button" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!-- scroll top -->
+    <a id="button" class="back-to-top"
+      ><i class="fa fa-arrow-up" aria-hidden="true"></i
+    ></a>
 
-  <!-- scripts -->
-  <script src="JS/jquery.js"></script>
-  <script src="JS/bootstrap.min.js"></script>
-  <script src="JS/bootstrap.bundle.min.js"></script>
-  <script src="JS/jquery-ui.min.js"></script>
-  <script src="JS/owl.carousel.js"></script>
+    <!-- scripts -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-ui.min.js"></script>
+    <script src="JS/owl.carousel.js"></script>
+    <script src="JS/preload.js"></script>
 
-  <script src="js/select2.min.js"></script>
-  <script>
-    $(".selection-2").select2({
-      minimumResultsForSearch: 20,
-      dropdownParent: $('#dropDownSelect1')
-    });
-  </script>
-  <script src="js/contact-us-page.js"></script>
-  <script>
-    // navbar js change color and logo when scroll
-    $(document).ready(function () {
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 4);
+    <script src="js/select2.min.js"></script>
+    <script>
+      $(".selection-2").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $("#dropDownSelect1"),
       });
-    });
-    var scrollsrc = "IMGS/logo_example_2-removebg1.png";
-    var initialscr = "IMGS/logo example 2.svg";
-    $(window).scroll(function () {
-      var value = $(this).scrollTop();
-      if (value > 10) $(".logo").attr("src", scrollsrc);
-      else $(".logo").attr("src", initialscr);
-    });
+    </script>
+    <script src="js/contact-us-page.js"></script>
+    <script>
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
+        });
+      });
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
+      });
 
-    // button back to top
-    var btn = $("#button");
+      // button back to top
+      var btn = $("#button");
 
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 600) {
-        btn.addClass("show");
-      } else {
-        btn.removeClass("show");
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 600) {
+          btn.addClass("show");
+        } else {
+          btn.removeClass("show");
+        }
+      });
+
+      btn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300");
+      });
+
+      var sliderImg = document.getElementById("myimg");
+      var imges = ["1.jpg", "3.jpg", "6.jpg"];
+      var i = 0; //current img
+      function prev() {
+        if (i <= 0) i = imges.length;
+        i--;
+        return setimg();
       }
-    });
-
-    btn.on("click", function (e) {
-      e.preventDefault();
-      $("html, body").animate({ scrollTop: 0 }, "300");
-    });
-
-    var sliderImg = document.getElementById("myimg");
-    var imges = ["1.jpg", "3.jpg", "6.jpg"];
-    var i = 0; //current img
-    function prev() {
-      if (i <= 0) i = imges.length;
-      i--;
-      return setimg();
-    }
-    function next() {
-      if (i >= imges.length - 1) i = -1;
-      i++;
-      return setimg();
-    }
-    function setimg() {
-      return sliderImg.setAttribute("src", "IMGS/" + imges[i]);
-    }
-  </script>
-</body>
-
+      function next() {
+        if (i >= imges.length - 1) i = -1;
+        i++;
+        return setimg();
+      }
+      function setimg() {
+        return sliderImg.setAttribute("src", "IMGS/" + imges[i]);
+      }
+    </script>
+  </body>
 </html>
