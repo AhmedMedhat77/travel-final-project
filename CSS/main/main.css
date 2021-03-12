@@ -10,6 +10,7 @@
 @import url(../vendors/owl.theme.default.min.css);
 @import url(../vendors/owl.carousel.min.css);
 @import url(../vendors/select2.min.css);
+@import url(../vendors/mc-calendar.min.css);
 
 /*        base               */
 @import url(../base/reset.css);
@@ -17,6 +18,7 @@
 /*          lay out         */
 @import url(../layout/navbar.css);
 @import url(../layout/footer.css);
+@import url(../layout/preload.css);
 
 /*          components       */
 @import url(../components/buttons.css);
@@ -44,8 +46,11 @@
 @import url(../pages/singlepackage.css);
 @import url(../pages/contact-us-page.css);
 @import url(../pages/sign.css);
+@import url(../pages/search.css);
+@import url(../pages/hotelsection.css);
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
+@import url(../vendors/fonts.css);
 /* fontawsome CDN */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 /* Roboto font */

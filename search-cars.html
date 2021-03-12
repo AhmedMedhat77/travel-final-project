@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars Rentels - booking now</title>
+    <link rel="stylesheet" href="CSS/main/main.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!-- */ N A V B A R /* -->
+
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="tours.html">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="hotels.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Resturant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="tours.html"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">LogIn</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- */ E N D - O F - N A V B A R /* -->
+
+    <!--HEADER SECTION-->
+    <section>
+      <div class="v2-hom-search cover v2-hom-search-background-car">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xsm-12 col-md-6 col-lg-6">
+              <div class="v2-ho-se-ri">
+                <h5>World's leading tour and travels template</h5>
+                <h1>Car Rentals easy now!</h1>
+                <p>
+                  Experience the various exciting tour and travel packages and
+                  Make hotel reservations, find vacation packages, search cheap
+                  hotels and events
+                </p>
+                <div class="tourz-hom-ser v2-hom-ser">
+                  <ul class="row">
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-tour.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/2.png" alt="" /> Tour</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="#"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/31.png" alt="" /> Flight</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-cars.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/30.png" alt="" /> Car Rentals</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-hotel.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/1.png" alt="" /> Hotel</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xsm-12 col-md-6 col-lg-6">
+              <div class="search__tourz">
+                <div class="search__input">
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    class="form-control"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="search__input">
+                  <input
+                    type="number"
+                    placeholder="Enter your phone"
+                    class="mr-2 form-control"
+                    name="phone"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="form-control"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="search__input">
+                  <input
+                    type="text"
+                    placeholder="Pick up loacation"
+                    class="form-control"
+                    name="pick-up"
+                    required
+                  />
+                </div>
+                <div class="search__input">
+                  <input
+                    type="text"
+                    placeholder="Dropping off loacation"
+                    class="form-control"
+                    name="dropping-off"
+                    required
+                  />
+                </div>
+                <div class="form-group search__input mb-0">
+                  <input
+                    class="form-control mr-2"
+                    placeholder="Pick up date"
+                    type="text"
+                    id="search__date1"
+                  />
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Pick up time</option>
+                    <option value="24:00 midnight">24:00 midnight</option>
+                    <option value="01:00 AM">01:00 AM</option>
+                    <option value="02:00 AM">02:00 AM</option>
+                    <option value="03:00 AM">03:00 AM</option>
+                    <option value="04:00 AM">04:00 AM</option>
+                    <option value="05:00 AM">05:00 AM</option>
+                    <option value="06:00 AM">06:00 AM</option>
+                    <option value="07:00 AM">07:00 AM</option>
+                    <option value="08:00 AM">08:00 AM</option>
+                    <option value="09:00 AM">09:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 noon">12:00 noon</option>
+                    <option value="13:00 PM">13:00 PM</option>
+                    <option value="14:00 PM">14:00 PM</option>
+                    <option value="15:00 PM">15:00 PM</option>
+                    <option value="16:00 PM">16:00 PM</option>
+                    <option value="17:00 PM">17:00 PM</option>
+                    <option value="18:00 PM">18:00 PM</option>
+                    <option value="19:00 PM">19:00 PM</option>
+                    <option value="20:00 PM">20:00 PM</option>
+                    <option value="21:00 PM">21:00 PM</option>
+                    <option value="22:00 PM">22:00 PM</option>
+                    <option value="23:00 PM">23:00 PM</option>
+                    <option value="24:00 midnight">06:00 AM</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <input
+                    class="form-control mr-2"
+                    placeholder="Drop off date"
+                    type="text"
+                    id="search__date2"
+                  />
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Drop off time</option>
+                    <option value="24:00 midnight">24:00 midnight</option>
+                    <option value="01:00 AM">01:00 AM</option>
+                    <option value="02:00 AM">02:00 AM</option>
+                    <option value="03:00 AM">03:00 AM</option>
+                    <option value="04:00 AM">04:00 AM</option>
+                    <option value="05:00 AM">05:00 AM</option>
+                    <option value="06:00 AM">06:00 AM</option>
+                    <option value="07:00 AM">07:00 AM</option>
+                    <option value="08:00 AM">08:00 AM</option>
+                    <option value="09:00 AM">09:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 noon">12:00 noon</option>
+                    <option value="13:00 PM">13:00 PM</option>
+                    <option value="14:00 PM">14:00 PM</option>
+                    <option value="15:00 PM">15:00 PM</option>
+                    <option value="16:00 PM">16:00 PM</option>
+                    <option value="17:00 PM">17:00 PM</option>
+                    <option value="18:00 PM">18:00 PM</option>
+                    <option value="19:00 PM">19:00 PM</option>
+                    <option value="20:00 PM">20:00 PM</option>
+                    <option value="21:00 PM">21:00 PM</option>
+                    <option value="22:00 PM">22:00 PM</option>
+                    <option value="23:00 PM">23:00 PM</option>
+                    <option value="24:00 midnight">06:00 AM</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>Select car type</option>
+                    <option value="Micro">Micro</option>
+                    <option value="Mini">Mini</option>
+                    <option value="Prime">Prime</option>
+                    <option value="Prime SUV">Prime SUV</option>
+                    <option value="Luxury Cars">Luxury Cars</option>
+                    <option value="Mini Van">Mini Van</option>
+                    <option value="Small Bus">Small Bus</option>
+                    <option value="Luxury Bus">Luxury Bus</option>
+                  </select>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Total passengers</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>No of adults</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  <select
+                    class="form-control mb-0"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>No of childrens</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>Min Price</option>
+                    <option value="$200">$200</option>
+                    <option value="$500">$500</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$5000">$5000</option>
+                    <option value="$10,000">$10,000</option>
+                    <option value="$50,000">$50,000</option>
+                  </select>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Max Price</option>
+                    <option value="$200">$200</option>
+                    <option value="$500">$500</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$5000">$5000</option>
+                    <option value="$10,000">$10,000</option>
+                    <option value="$50,000">$50,000</option>
+                  </select>
+                </div>
+                <div class="search__input">
+                  <button
+                    type="submit"
+                    class="form-control search__btn-book"
+                    style="width: 100%"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END HEADER SECTION-->
+
+    <!-- */ F O O T E R /* -->
+    <section class="footer">
+      <footer>
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <img src="#" alt="" width="180" class="mb-3" />
+              <p class="font-italic text-muted">
+                Happily To Surve You The best & Introduce You To The Travilling
+                World
+              </p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                  <a href="#"><i class="fab fa-spotify"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Education Opportuinities</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Employee Perks</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Meet our people and staff</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Apply now</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">E-Payments</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Download App</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Family Fun Hub</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Blog</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Single Day Trips</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Nile Cruses</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">
+                Enter Your Mail If You Want One Of Our Team To Contact With You
+              </p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">
+              © 2021 Senior Group 1 All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- */  E N D - O F - F O O T E R /* -->
+    
+    <!-- scripts -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-ui.min.js"></script>
+    <script src="JS/preload.js"></script>
+    <script src="JS/mc-calendar.min.js"></script>
+
+    <script>
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
+        });
+      });
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        var myDatePicker = MCDatepicker.create({
+          el: "#search__date1",
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        var myDatePicker = MCDatepicker.create({
+          el: "#search__date2",
+        });
+      });
+    </script>
+  </body>
+</html>

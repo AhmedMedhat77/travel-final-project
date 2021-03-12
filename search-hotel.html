@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Package booking now</title>
+    <link rel="stylesheet" href="CSS/main/main.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!-- */ N A V B A R /* -->
+
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 ml-3" href="#">
+            <img
+              id="nav__logo"
+              src="IMGS/logo example 2.svg"
+              class="logo"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active-text hvr-underline-from-center"
+                  href="index.html"
+                  >home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li><a class="dropdown-item" href="#"> About Us</a></li>
+                  <li><a class="dropdown-item" href="#"> Our Team</a></li>
+                  <li><a class="dropdown-item" href="#"> Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html"> FAQ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="blogpage.html"> Blogs</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  destination
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-1">
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Destination Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle hvr-underline-from-center"
+                  href="#"
+                  id="menu-2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menu-2">
+                  <li>
+                    <a class="dropdown-item" href="tours.html">tour single</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >tour lists<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"> standard</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> gallery</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >dashboard<i class="fas fa-chevron-right ml-5"></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">my profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">edit profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Booking</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="hotels.html"
+                  >Hotel</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Resturant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Car Rental</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="tours.html"
+                  >Top Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Contact Us</a
+                >
+              </li>
+
+              <li class="nav-tiem login__btn">
+                <a href="#" type="submit"
+                  ><button class="btn btn-primary">LogIn</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- */  E N D - O F - N A V B A R /* -->
+
+    <!--HEADER SECTION-->
+
+    <section>
+      <div class="v2-hom-search cover v2-hom-search-background-hotel">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xsm-12 col-md-6 col-lg-6">
+              <div class="v2-ho-se-ri">
+                <h5>World's leading tour and travels template</h5>
+                <h1>Hotel booking now!</h1>
+                <p>
+                  Experience the various exciting tour and travel packages and
+                  Make hotel reservations, find vacation packages, search cheap
+                  hotels and events
+                </p>
+                <div class="tourz-hom-ser v2-hom-ser">
+                  <ul class="row">
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-tour.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/2.png" alt="" /> Tour</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="#"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/31.png" alt="" /> Flight</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-cars.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/30.png" alt="" /> Car Rentals</a
+                      >
+                    </li>
+                    <li class="col-xsm-3">
+                      <a
+                        href="search-hotel.html"
+                        class="waves-effect waves-light btn-large tourz-pop-ser-btn"
+                        ><img src="IMGS/Search/icon/1.png" alt="" /> Hotel</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xsm-12 col-md-6 col-lg-6">
+              <div class="search__tourz">
+                <div class="search__input">
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    class="form-control"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="search__input">
+                  <input
+                    type="number"
+                    placeholder="Enter your phone"
+                    class="mr-2 form-control"
+                    name="phone"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="form-control"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="search__input">
+                  <input
+                    type="text"
+                    placeholder="City, Destination and Hotel Name"
+                    class="form-control"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Select your package</option>
+                    <option>Family Package</option>
+                    <option>Holiday Package</option>
+                    <option>Group Package</option>
+                    <option>Regular Package</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <input
+                    class="form-control mr-2"
+                    placeholder="Chech In"
+                    type="text"
+                    id="search__date1"
+                  />
+                  <input
+                    class="form-control"
+                    placeholder="Check Out"
+                    type="text"
+                    id="search__date2"
+                  />
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>No of Rooms</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  <select
+                    class="form-control mb-0"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>Room Tybe</option>
+                    <option value="Ultra Premium">Ultra Premium</option>
+                    <option value="Ultra Deluxe">Ultra Deluxe</option>
+                    <option value="Premium">Premium</option>
+                    <option value="Deluxe">Deluxe</option>
+                    <option value="Normal">Normal</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>No of adults</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  <select
+                    class="form-control mb-0"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>No of childrens</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+                <div class="form-group search__input mb-0">
+                  <select
+                    class="form-control mr-2"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled>Min Price</option>
+                    <option value="$200">$200</option>
+                    <option value="$500">$500</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$5000">$5000</option>
+                    <option value="$10,000">$10,000</option>
+                    <option value="$50,000">$50,000</option>
+                  </select>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected disabled>Max Price</option>
+                    <option value="$200">$200</option>
+                    <option value="$500">$500</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$5000">$5000</option>
+                    <option value="$10,000">$10,000</option>
+                    <option value="$50,000">$50,000</option>
+                  </select>
+                </div>
+                <div class="search__input">
+                  <a
+                    href="search-packages-of-hotels.html"
+                    class="form-control search__btn-book"
+                    style="width: 100%"
+                  >
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END HEADER SECTION-->
+
+    <!-- */ O U R - R O O M S /* -->
+    <section class="our-rooms">
+      <div class="contianer">
+        <div class="our-title pt-5">
+          <span class="pt-5"> Luxury Hotel Rooms </span>
+          <h4>Our Rooms</h4>
+        </div>
+      </div>
+      <div class="our-rooms-card">
+        <div class="content">
+          <h2>Grand Hotel</h2>
+          <div class="grid">
+            <figure class="effect-zoe">
+              <img src="IMGS/room1.jpg" alt="img25" />
+              <figcaption>
+                <h2>Grand <span>Room</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="effect-zoe">
+              <img src="IMGS/room2.jpg" alt="img26" />
+              <figcaption>
+                <h2>Luxury <span>Room</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="content">
+          <h2>Red Rose</h2>
+          <div class="grid">
+            <figure class="effect-zoe">
+              <img src="IMGS/lobby1.jpg" alt="img25" />
+              <figcaption>
+                <h2>Resort <span>Room</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium..
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="effect-zoe">
+              <img src="IMGS/room3.jpg" alt="img26" />
+              <figcaption>
+                <h2>Rose <span>Luxury</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Zoe never had the patience of her sisters. She deliberately
+                  punched the bear in his face.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="content">
+          <h2>Helton</h2>
+          <div class="grid">
+            <figure class="effect-zoe">
+              <img src="IMGS/room4.jpg" alt="img25" />
+              <figcaption>
+                <h2>Helton <span>Room</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="effect-zoe">
+              <img src="IMGS/room5.jpg" alt="img26" />
+              <figcaption>
+                <h2>Helton <span>Luxury</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Zoe never had the patience of her sisters. She deliberately
+                  punched the bear in his face.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="content">
+          <h2>Central</h2>
+          <div class="grid">
+            <figure class="effect-zoe">
+              <img src="IMGS/room6.jfif" alt="img25" />
+              <figcaption>
+                <h2>Centeral <span>Room</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="effect-zoe">
+              <img src="IMGS/room7.jpg" alt="img26" />
+              <figcaption>
+                <h2>Central <span>Luxury</span></h2>
+                <p class="icon-links">
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </p>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsum beatae laudantium.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- */ E N D - O F -  O U R - R O O M S /* -->
+
+    <!-- */ R O O M S -  S L I D E R /* -->
+
+    <div class="container big-hotel-slider">
+      <div class="title">
+        <h3>Top Rated Hotel Rooms</h3>
+        <hr style="background: rgb(68, 68, 75); padding: 1px" />
+      </div>
+    </div>
+    <section class="rooms-big-slider">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item large-carsoul active">
+              <img
+                class="d-block w-100"
+                src="IMGS/room7.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item large-carsoul">
+              <img
+                class="d-block w-100"
+                src="IMGS/room1.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item large-carsoul">
+              <img
+                class="d-block w-100"
+                src="IMGS/room3.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- */ E N D - O F -   R O O M S S L I D E R /* -->
+
+    <!-- */ H E R O /* -->
+
+    <section class="small-rate-rooms">
+      <div class="container-fluid">
+        <div class="contianer srate-title">
+          <div class="title">
+            <h3>Client Rated Rooms</h3>
+            <hr style="background: rgb(68, 68, 75); padding: 1px" />
+          </div>
+        </div>
+        <div
+          id="carousel-example-multi"
+          class="carousel slide carousel-multi-item v-2 product-carousel"
+          data-ride="carousel"
+        >
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-multi"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="6"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="7"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="8"></li>
+          </ol>
+          <!--/.Indicators-->
+
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active mx-auto">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room7.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Resort
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Sea Side</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star-half-alt mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">9,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room1.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room 1
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="far fa-star mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">14,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room2.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room2
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">12,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room3.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room3
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star-half-alt mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">10,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room4.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room4
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">19,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room5.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room5
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star-half-alt mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">17,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room5.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room6
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="far fa-star mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">9,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room2.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room7
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star-half-alt mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">29,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-4 col-lg-2 mx-auto">
+                <a href="">
+                  <div class="card mb-2">
+                    <div class="view overlay">
+                      <img
+                        class="card-img-top small-slider-hotel"
+                        src="IMGS/room1.jpg"
+                        alt="Card image cap"
+                      />
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <h5
+                        class="card-title font-weight-bold fuchsia-rose-text mb-0"
+                      >
+                        Room8
+                      </h5>
+                      <p class="aqua-sky-text mb-0">Hotel</p>
+                      <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                        <li class="list-inline-item mx-0">
+                          <i class="fas fa-star mimosa-text"></i>
+                        </li>
+                      </ul>
+                      <p class="chili-pepper-text mb-0">24,99 $</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- */ E N D - O F - H E R O /* -->
+
+    <section class="top-clints-review">
+      <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <p>
+                  If Shai Reznik's TDD videos don't convince you to add
+                  automated testing your code, I don't know what will.This was
+                  the very best explanation of frameworks for brginners that
+                  I've ever seen.
+                </p>
+                <img src="https://i.imgur.com/lE89Aey.jpg" />
+                <div id="image-caption">Nick Doe</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <p>
+                  If Shai Reznik's TDD videos don't convince you to add
+                  automated testing your code, I don't know what will.This was
+                  the very best explanation of frameworks for brginners that
+                  I've ever seen.
+                </p>
+                <img src="https://i.imgur.com/QptVdsp.jpg" class="img-fluid" />
+                <div id="image-caption">Cromption Greves</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <p>
+                  If Shai Reznik's TDD videos don't convince you to add
+                  automated testing your code, I don't know what will.This was
+                  the very best explanation of frameworks for brginners that
+                  I've ever seen.
+                </p>
+                <img src="https://i.imgur.com/jQWThIn.jpg" class="img-fluid" />
+                <div id="image-caption">Harry Mon</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- */ F O O T E R /* -->
+    <section class="footer">
+      <footer>
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <img src="#" alt="" width="180" class="mb-3" />
+              <p class="font-italic text-muted">
+                Happily To Surve You The best & Introduce You To The Travilling
+                World
+              </p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-tumblr-square"></i></a>
+                  <a href="#"><i class="fab fa-spotify"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Carers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Education Opportuinities</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Employee Perks</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Meet our people and staff</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Apply now</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text-muted">E-Payments</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Mobile Reservation & Pay</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Download App</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Family Fun Hub</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Our Offers</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Hotels</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Top Offers</a>
+                </li>
+                <li class="mb-2"><a href="#" class="text-muted">Fun</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Blog</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Single Day Trips</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Nile Cruses</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-muted">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">
+                Enter Your Mail If You Want One Of Our Team To Contact With You
+              </p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 shadow-0"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">
+              © 2021 Senior Group 1 All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- */  E N D - O F - F O O T E R /* -->
+
+    <!-- scripts -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-ui.min.js"></script>
+    <script src="JS/preload.js"></script>
+    <script src="JS/mc-calendar.min.js"></script>
+    <script>
+      // navbar js change color and logo when scroll
+      $(document).ready(function () {
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY > 4);
+        });
+      });
+      var scrollsrc = "IMGS/logo_example_2-removebg1.png";
+      var initialscr = "IMGS/logo example 2.svg";
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        if (value > 10) $(".logo").attr("src", scrollsrc);
+        else $(".logo").attr("src", initialscr);
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        var myDatePicker = MCDatepicker.create({
+          el: "#search__date1",
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        var myDatePicker = MCDatepicker.create({
+          el: "#search__date2",
+        });
+      });
+    </script>
+  </body>
+</html>
