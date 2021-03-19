@@ -1,7 +1,7 @@
 
 // PreLoad
-$('#status').fadeOut();
-    $('#preloader').delay(350).fadeOut('slow');
+$('#status').delay(650).fadeOut('slow');
+    $('#preloader').delay(650).fadeOut('slow');
     $('body').delay(350).css({
         'overflow': 'visible'
     });

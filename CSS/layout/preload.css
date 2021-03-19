@@ -9,7 +9,7 @@
   bottom: 0;
   background-color: #fff;
   /* change if the mask should have another color then white */
-  z-index: 99999;
+  z-index: 9999999;
   /* makes sure it stays on top */
 }
 #status {
@@ -24,6 +24,7 @@
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
